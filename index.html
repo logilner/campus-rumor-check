@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
   <title>Campus Rumor Check — UNL</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%8D%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
@@ -52,6 +54,7 @@
       <ol id="incident-list" class="timeline"></ol>
       <details id="crimelog-wrap" class="crimelog">
         <summary>UNL Police crime-log entries (unreviewed, from <code>scrape_crimelog.py</code>) <span id="crimelog-count"></span></summary>
+        <p class="cl-caveat">Clery Act log entries are posted within about two business days, so a claim missing here is not disproven. Rows are leads, not confirmed facts.</p>
         <div id="crimelog-list"></div>
       </details>
     </section>
@@ -66,6 +69,8 @@
     <section id="view-about" class="view" hidden>
       <article class="about-copy">
         <h2>What this does</h2>
+        <p class="section-note">Two ways people use it: a student checks a rumor they heard or saw online, and a
+        reporter checks whether an incident has been picked up by any other verified outlet yet before chasing it.</p>
         <ol>
           <li><strong>Extracts the core claim</strong> from what you paste, stripping "I heard…"-style framing.</li>
           <li><strong>Categorizes it</strong> — safety, personnel, enforcement, operations, or general.</li>

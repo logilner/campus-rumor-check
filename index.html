@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campus Rumor Check — UNL</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Campus Rumor Check</h1>
+      <p class="tagline" id="tagline">Paste a rumor you saw about <span id="school">UNL</span>. It gets checked against official university channels and local news.</p>
+      <nav class="tabs" role="tablist">
+        <button class="tab" data-view="check" role="tab" aria-selected="true">Check a rumor</button>
+        <button class="tab" data-view="incidents" role="tab" aria-selected="false">Past incidents</button>
+        <button class="tab" data-view="checks" role="tab" aria-selected="false">Recent checks</button>
+        <button class="tab" data-view="about" role="tab" aria-selected="false">How it works</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <!-- CHECK -->
+    <section id="view-check" class="view">
+      <form id="check-form">
+        <label for="rumor" class="lbl">What did you see? Paste the text, or type what it said.</label>
+        <textarea id="rumor" rows="4" placeholder="e.g. &quot;I heard there's a lockdown at Abel Hall because of someone with a gun&quot;"></textarea>
+        <div class="form-row">
+          <label class="chk"><input type="checkbox" id="use-ai" checked /> Also run the AI web check (needs API key on the server)</label>
+          <button type="submit" class="btn primary" id="check-btn">Check it</button>
+        </div>
+      </form>
+      <div id="check-result" aria-live="polite"></div>
+    </section>
+
+    <!-- INCIDENTS -->
+    <section id="view-incidents" class="view" hidden>
+      <div class="controls">
+        <label>Category:
+          <select id="inc-cat">
+            <option value="all">All</option>
+            <option value="threat">Threat</option>
+            <option value="weapon">Weapon</option>
+            <option value="report">Safety reports</option>
+            <option value="crime">Crime</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <input type="search" id="inc-search" placeholder="search incidents…" />
+      </div>
+      <ol id="incident-list" class="timeline"></ol>
+      <details id="crimelog-wrap" class="crimelog">
+        <summary>UNL Police crime-log entries (unreviewed, from <code>scrape_crimelog.py</code>) <span id="crimelog-count"></span></summary>
+        <div id="crimelog-list"></div>
+      </details>
+    </section>
+
+    <!-- RECENT CHECKS -->
+    <section id="view-checks" class="view" hidden>
+      <p class="section-note">Rumors recently run through this tool (this device / server). Newest first.</p>
+      <ol id="checks-list" class="checks-list"></ol>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="view-about" class="view" hidden>
+      <article class="about-copy">
+        <h2>What this does</h2>
+        <ol>
+          <li><strong>Extracts the core claim</strong> from what you paste, stripping "I heard…"-style framing.</li>
+          <li><strong>Categorizes it</strong> — safety, personnel, enforcement, operations, or general.</li>
+          <li><strong>Matches it</strong> against a cached feed of recent items from verified sources, and (if enabled) has Claude run a live web search limited to those same sources.</li>
+          <li><strong>Returns a status</strong>: confirmed by an official source / being reported by local news / no match found — with links.</li>
+        </ol>
+        <h2>Verified sources</h2>
+        <ul id="sources-list"></ul>
+        <h2>Limits — read this</h2>
+        <ul>
+          <li><strong>"No match found" is not an all-clear.</strong> Official alerts can lag a real event, and this tool only sees what has been published to the sources above. In a possible emergency, act on official channels and 911, not on this.</li>
+          <li>The cached source feed is only as fresh as the last run of <code>fetch_sources.py</code> (shown on each result).</li>
+          <li>Claim extraction is heuristic. Check the "we read your rumor as" line — if it's off, rephrase and re-run.</li>
+          <li>Crime-log entries are scraped best-effort and unreviewed; treat them as leads, not confirmed facts.</li>
+          <li>This is a student-built tool, not affiliated with the University of Nebraska–Lincoln or any news outlet.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <span id="foot-status">Loading…</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

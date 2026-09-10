@@ -1,0 +1,60 @@
+{
+  "_note": "Curated timeline of notable UNL campus-safety incidents and official safety reports. category: threat | weapon | report | crime | other. 'verified' true means the core facts are backed by the linked source(s); set false and add a 'checkNote' when details are approximate. Add new rows here; scripts/scrape_crimelog.py writes candidate rows to crimelog_raw.json for you to promote.",
+  "incidents": [
+    {
+      "id": "2024-02-15-east-campus-dangerous-person",
+      "date": "2024-02-15",
+      "title": "\"Potentially dangerous person\" alert on East Campus",
+      "category": "threat",
+      "location": "East Campus",
+      "summary": "UNL sent a notification about a potentially dangerous person on East Campus. The person was found unarmed despite a report of a possible weapon; individuals were taken into custody and the situation was resolved within about 16 minutes.",
+      "outcome": "Resolved; no injuries reported.",
+      "verified": true,
+      "sources": [
+        { "title": "\"Dangerous person\" threat frightens Nebraska students — Daily Nebraskan", "url": "https://www.dailynebraskan.com/news/unl-potentially-dangerous-person-alert/article_6cb217ca-d110-11ee-b51a-4f4287130363.html", "type": "news" }
+      ]
+    },
+    {
+      "id": "2024-09-27-east-campus-rifle-report",
+      "date": "2024-09-27",
+      "title": "Report of an armed person near the East Campus Dairy Store",
+      "category": "threat",
+      "location": "East Campus (Dairy Store, Union, Rec Center area)",
+      "summary": "Around 9:40 p.m. a student reported seeing a man in a dark sweater carrying a rifle near the East Campus Dairy Store. A UNL Alert was issued and law enforcement searched the area for several hours. UNL said no person matching the description was found and the area was declared clear.",
+      "outcome": "Area declared clear; no person located.",
+      "verified": true,
+      "sources": [
+        { "title": "UPDATE: Area \"clear\" after UNL warns of dangerous person near East Campus — 1011 News", "url": "https://www.1011now.com/2024/09/28/unl-warns-potentially-armed-person-near-east-campus-dairy-store/", "type": "news" }
+      ]
+    },
+    {
+      "id": "2026-04-07-east-campus-airsoft",
+      "date": "2026-04-07",
+      "title": "Airsoft gun incident on East Campus; earlier shelter-in-place near the East Campus Union",
+      "category": "weapon",
+      "location": "East Campus / East Campus Union",
+      "summary": "Students raised safety concerns after an airsoft gun incident on East Campus. Reporting also references a shelter-in-place / avoid-the-area alert near the East Campus Union after a person was believed to be carrying a long-barreled rifle, resolved roughly 25 minutes after the initial alert.",
+      "outcome": "Resolved; students subsequently pressed the university on its response.",
+      "verified": false,
+      "checkNote": "Exact sequence and whether the shelter-in-place and the airsoft incident are the same event needs confirmation against primary sources.",
+      "sources": [
+        { "title": "UNL students raise safety concerns after airsoft gun incident on East Campus — 1011 News", "url": "https://www.1011now.com/2026/04/07/unl-students-raise-safety-concerns-after-airsoft-gun-incident-east-campus/", "type": "news" }
+      ]
+    },
+    {
+      "id": "2025-clery-report",
+      "date": "2025-10-01",
+      "title": "2025 Annual Campus Safety and Fire Report published",
+      "category": "report",
+      "location": "University-wide",
+      "summary": "UNL released its annual Clery Act security and fire safety report, containing the university's crime and fire statistics for the previous three years along with policy statements and victim resources. Date shown is approximate — confirm the exact publication date.",
+      "outcome": "Report available for public review.",
+      "verified": false,
+      "checkNote": "Publication date is approximate.",
+      "sources": [
+        { "title": "2025 campus safety and fire report available for review — Nebraska Today", "url": "https://news.unl.edu/article/2025-campus-safety-and-fire-report-available-for-review", "type": "official" },
+        { "title": "Safety Reports and Statistics — UNL Police", "url": "https://police.unl.edu/safety-reports-and-statistics/", "type": "official" }
+      ]
+    }
+  ]
+}

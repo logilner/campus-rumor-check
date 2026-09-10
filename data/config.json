@@ -1,0 +1,34 @@
+{
+  "school": "University of Nebraska–Lincoln",
+  "lookbackDays": 30,
+  "model": "claude-opus-5",
+  "verifiedSources": [
+    { "name": "emergency.unl.edu (active-incident page)", "type": "official", "domain": "emergency.unl.edu", "url": "https://emergency.unl.edu/" },
+    { "name": "UNL Alert", "type": "official", "domain": "unlalert.unl.edu", "url": "https://unlalert.unl.edu/" },
+    { "name": "Nebraska Today (UNL newsroom)", "type": "official", "domain": "news.unl.edu", "url": "https://news.unl.edu/" },
+    { "name": "UNL Police", "type": "official", "domain": "police.unl.edu", "url": "https://police.unl.edu/" },
+    { "name": "Daily Nebraskan", "type": "news", "domain": "dailynebraskan.com", "url": "https://www.dailynebraskan.com/" },
+    { "name": "1011 News / KOLN", "type": "news", "domain": "1011now.com", "url": "https://www.1011now.com/" },
+    { "name": "Lincoln Journal Star", "type": "news", "domain": "journalstar.com", "url": "https://journalstar.com/" }
+  ],
+  "safetyKeywords": [
+    "shooter", "shooting", "shots fired", "gun", "gunman", "firearm", "rifle", "pistol",
+    "weapon", "armed", "knife", "stabbing", "stabbed", "lockdown", "shelter in place",
+    "shelter-in-place", "bomb", "explosive", "suspicious package", "threat", "active threat",
+    "assault", "attack", "hostage", "evacuate", "evacuation", "intruder", "dangerous person"
+  ],
+  "emergencyPanel": {
+    "heading": "If this may be an active emergency, do not rely on this tool",
+    "points": [
+      "Call 911 for anything happening now.",
+      "Check emergency.unl.edu and your UNL Alert texts/email directly.",
+      "The absence of a UNL Alert does not mean an area is confirmed safe — alerts can lag a real event."
+    ],
+    "links": [
+      { "label": "emergency.unl.edu", "url": "https://emergency.unl.edu/" },
+      { "label": "UNL Alert", "url": "https://unlalert.unl.edu/" },
+      { "label": "UNL Police", "url": "https://police.unl.edu/" },
+      { "label": "@UNLPD on X", "url": "https://x.com/UNLPD" }
+    ]
+  }
+}

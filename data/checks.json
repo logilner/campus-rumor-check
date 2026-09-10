@@ -1,0 +1,14 @@
+{
+  "_note": "Log of rumor checks run through the app or scripts/check_rumor.py, newest first. Written automatically.",
+  "checks": [
+    {
+      "checkedAt": "2026-09-08T23:39:01+00:00",
+      "claim": "there is a fire in Abel Hall",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    }
+  ]
+}

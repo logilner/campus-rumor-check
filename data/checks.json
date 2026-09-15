@@ -2,6 +2,96 @@
   "_note": "Log of rumor checks run through the app or scripts/check_rumor.py, newest first. Written automatically.",
   "checks": [
     {
+      "checkedAt": "2026-09-15T23:14:52+00:00",
+      "claim": "Sister Cindy was at UNL",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "reported_news",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-15T23:11:25+00:00",
+      "claim": "Sister Cindy came to UNL",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "reported_news",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}"
+    },
+    {
+      "checkedAt": "2026-09-15T23:08:39+00:00",
+      "claim": "domestic assault",
+      "category": "safety",
+      "isSafety": true,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}"
+    },
+    {
+      "checkedAt": "2026-09-15T23:07:30+00:00",
+      "claim": "Jury finds Lincoln man guilty of sexual assault of two young girls",
+      "category": "safety",
+      "isSafety": true,
+      "heuristicStatus": "reported_news",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}"
+    },
+    {
+      "checkedAt": "2026-09-15T23:04:25+00:00",
+      "claim": "minor in possession",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}"
+    },
+    {
+      "checkedAt": "2026-09-15T23:04:21+00:00",
+      "claim": "minor in possesion",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}"
+    },
+    {
+      "checkedAt": "2026-09-15T23:04:19+00:00",
+      "claim": "minor in possesion",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}"
+    },
+    {
+      "checkedAt": "2026-09-15T23:03:42+00:00",
+      "claim": "unconscious student",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}"
+    },
+    {
+      "checkedAt": "2026-09-15T22:53:49+00:00",
+      "claim": "Fire alarm went off",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}"
+    },
+    {
+      "checkedAt": "2026-09-15T22:53:17+00:00",
+      "claim": "a fire alarm in a dorm went off",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}"
+    },
+    {
       "checkedAt": "2026-09-08T23:39:01+00:00",
       "claim": "there is a fire in Abel Hall",
       "category": "general",

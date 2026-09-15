@@ -2,9 +2,9 @@
 
 Paste a rumor you saw about the University of Nebraska–Lincoln. The tool extracts
 the core claim, categorizes it, and checks it against **verified sources** —
-official university channels (`emergency.unl.edu`, Nebraska Today, UNL Police) and
-established local news (Daily Nebraskan, 1011 News/KOLN, Lincoln Journal Star) —
-then returns a status:
+official university channels (`emergency.unl.edu`, Nebraska Today, UNL Police, the
+UNL Daily Crime & Fire Log) and established local news (Daily Nebraskan, 1011
+News/KOLN, Lincoln Journal Star) — then returns a status:
 
 - **Confirmed by an official source**
 - **Being reported by local news** (no official statement matched)
@@ -16,6 +16,11 @@ a standing reminder that *no alert is not an all-clear*.
 
 There's also a **Past incidents** timeline (curated + best-effort UNL Police
 crime-log scrape) and a **Recent checks** log.
+
+Crime-log rows aren't just displayed — `scripts/scrape_crimelog.py`'s output
+(`data/crimelog_raw.json`) is also matched against your claim like any other
+source, so a claim can come back "confirmed by an official source" off a raw
+police-log line, not just news/official-feed items.
 
 ## Run it
 
@@ -42,7 +47,7 @@ off per check.
 | Script | Does | Writes |
 | --- | --- | --- |
 | `scripts/fetch_sources.py` | Pulls recent items from each verified domain (Google News RSS, key-free) + a snapshot of `emergency.unl.edu` | `data/sources.json` |
-| `scripts/scrape_crimelog.py` | Best-effort parse of the UNL Daily Crime & Fire Log landing page | `data/crimelog_raw.json` |
+| `scripts/scrape_crimelog.py` | Best-effort parse of the UNL Daily Crime & Fire Log landing page | `data/crimelog_raw.json` (feeds both the Past-incidents panel and rumor matching) |
 | `scripts/check_rumor.py "..."` | Run a check from the terminal (heuristic + optional AI) | appends `data/checks.json` |
 
 ```bash
@@ -74,8 +79,11 @@ Scheduler / cron so matches stay current — each result shows the cache age.
 - **Heuristic claim extraction.** The result shows "we read your rumor as …" —
   if it misread, rephrase and re-run.
 - **Crime-log scrape is best-effort.** The log is an ASP.NET page; this parses the
-  server-rendered landing entries only and may capture messy text if the markup
-  changes. Rows are leads, not confirmed facts.
+  server-rendered landing entries only (no pagination/archive), so it only ever
+  reflects whatever is currently on the landing page — run it on a schedule to
+  build up history. Rows are leads, not confirmed facts, even when the checker
+  surfaces one as a "confirmed" match — the title/summary are auto-extracted from
+  raw log text, not written up like the curated incidents.
 - **Not affiliated** with the University of Nebraska–Lincoln or any news outlet.
 - Some seeded incident details are marked *unverified* — confirm against the
   linked sources before relying on them.

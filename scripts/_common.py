@@ -48,6 +48,49 @@ def save_json(name: str, obj: dict) -> None:
     (DATA / name).write_text(json.dumps(obj, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+_INCIDENT_CODE_RE = re.compile(r"Incident Code:\s*(.*?)\s*Reported Date:", re.I)
+_LOCATION_RE = re.compile(r"Location:\s*(.*?)(?:\s*Case Number:|\s*Glossary|$)", re.I)
+
+
+def _mmddyyyy_to_iso(s: str) -> str:
+    try:
+        m, d, y = s.strip().split("/")
+        return f"{y}-{int(m):02d}-{int(d):02d}"
+    except (ValueError, AttributeError):
+        return ""
+
+
+def crimelog_items() -> list[dict]:
+    """Turn scraped UNLPD crime/fire log rows (data/crimelog_raw.json) into items
+    shaped like data/sources.json entries, so the checker can match claims against
+    them too. Best-effort: the scraper only captures the log's current landing
+    page (see scrape_crimelog.py), so this only ever reflects the most recent
+    entries on file, not the full log history."""
+    try:
+        rows = load_json("crimelog_raw.json").get("rows", [])
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+    out = []
+    for r in rows:
+        case = r.get("case", "")
+        raw = r.get("raw", "")
+        m = _INCIDENT_CODE_RE.search(raw)
+        code = m.group(1).strip() if m else "Incident"
+        m = _LOCATION_RE.search(raw)
+        loc = m.group(1).strip() if m else ""
+        dates = r.get("dates") or []
+        out.append({
+            "id": f"cl-{case}",
+            "type": "official",
+            "source": "UNL Police Crime & Fire Log",
+            "title": f"{code} — Case #{case}" if case else code,
+            "summary": (f"{loc} — " if loc else "") + f"{(r.get('disposition') or '').title()}. {raw}".strip(),
+            "url": "https://scsapps.unl.edu/policereports/MainPage.aspx",
+            "date": _mmddyyyy_to_iso(dates[0]) if dates else "",
+        })
+    return out
+
+
 def extract_claim(raw: str) -> str:
     """Strip hedging preamble and keep the first sentence or two of the actual claim."""
     text = re.sub(r"\s+", " ", (raw or "").strip())
@@ -102,14 +145,14 @@ def _recent(item_date: str, lookback_days: int) -> bool:
 
 def generated_searches(claim: str, config: dict) -> list[dict]:
     q = urllib.parse.quote_plus(claim)
-    out = [{
-        "label": "emergency.unl.edu (active incidents)",
-        "url": "https://emergency.unl.edu/",
-    }]
+    out = [
+        {"label": "emergency.unl.edu (active incidents)", "url": "https://emergency.unl.edu/"},
+        {"label": "UNL Daily Crime & Fire Log", "url": "https://scsapps.unl.edu/policereports/MainPage.aspx"},
+    ]
     for src in config.get("verifiedSources", []):
         dom = src.get("domain")
-        if not dom or dom == "unlalert.unl.edu":
-            continue
+        if not dom or dom in ("unlalert.unl.edu", "scsapps.unl.edu"):
+            continue  # both already get a direct link above; a site: search is useless on them
         out.append({
             "label": f"Search {src['name']}",
             "url": f"https://www.google.com/search?q={q}+site:{dom}",
@@ -123,10 +166,15 @@ def assess(raw_text: str, config: dict, sources: dict) -> dict:
     lookback = int(config.get("lookbackDays", 30))
     threshold = 2
 
+    pool = list(sources.get("items", [])) + crimelog_items()
     scored = []
-    for it in sources.get("items", []):
+    for it in pool:
         s = score_match(claim, it)
-        if s >= threshold and _recent(it.get("date", ""), lookback if it.get("id", "").startswith("gn-") else 3650):
+        item_id = it.get("id", "")
+        # Google News items and crime-log rows are dated feed entries, so they age
+        # out after lookbackDays; other (seeded/curated) items are kept indefinitely.
+        window = lookback if item_id.startswith(("gn-", "cl-")) else 3650
+        if s >= threshold and _recent(it.get("date", ""), window):
             scored.append({**it, "_score": s})
     scored.sort(key=lambda x: x["_score"], reverse=True)
 

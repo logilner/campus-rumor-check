@@ -1,6 +1,6 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-15T23:13:00+00:00",
+  "scrapedAt": "2026-09-15T23:33:09+00:00",
   "rows": [
     {
       "case": "26002591",
@@ -21,6 +21,202 @@
       "raw": "26002588 Incident Code: ASSAULT - DOMESTIC Reported Date: 09/15/2026 04:03 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/15/2026 04:00 Location: 880 N 17th St (UNL RESIDENCE HALL) Case Number:"
     },
     {
+      "case": "26002586",
+      "dates": [
+        "09/14/2026",
+        "09/14/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002586 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/14/2026 23:47 Disposition: Closed - Non-Criminal Case Occurred Date: 09/14/2026 23:47 Location: 880 N 17th St (UNL RESIDENCE HALL) Glossary"
+    },
+    {
+      "case": "26002583",
+      "dates": [
+        "09/14/2026",
+        "09/14/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002583 Incident Code: TRAFFIC - SUSPENDED DRIVER Reported Date: 09/14/2026 21:33 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/14/2026 21:33 Location: N 27TH ST & W ST (STREET) Case Number:"
+    },
+    {
+      "case": "26002580",
+      "dates": [
+        "09/14/2026",
+        "09/11/2026",
+        "09/14/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002580 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 09/14/2026 18:42 Disposition: Open Occurred Date: 09/11/2026 13:00 — 09/14/2026 12:00 Location: 402 Stadium Dr (UNL ACADEMIC BUILDING) Case Number:"
+    },
+    {
+      "case": "26002575",
+      "dates": [
+        "09/14/2026",
+        "09/11/2026",
+        "09/14/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002575 Incident Code: LARCENY - STOLEN BIKE Reported Date: 09/14/2026 15:32 Disposition: Open Occurred Date: 09/11/2026 02:42 — 09/14/2026 15:10 Location: 433 N 19th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002574",
+      "dates": [
+        "09/14/2026",
+        "09/12/2026",
+        "09/14/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002574 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 09/14/2026 12:12 Disposition: Open Occurred Date: 09/12/2026 00:00 — 09/14/2026 12:12 Location: (INTERNET/CYBERSPACE) Case Number:"
+    },
+    {
+      "case": "26002572",
+      "dates": [
+        "09/14/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002572 Incident Code: DISTURBANCE - OTHER Reported Date: 09/14/2026 13:45 Disposition: Closed - Inactive Occurred Date: Unknown Location: 1875 N 42nd St (UNL ACADEMIC BUILDING) Case Number:"
+    },
+    {
+      "case": "26002551",
+      "dates": [
+        "09/12/2026",
+        "09/12/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002551 Incident Code: FIRE - FALSE ALARM Reported Date: 09/12/2026 22:30 Disposition: Open Occurred Date: 09/12/2026 22:30 Location: 820 N 17th St (UNL RESIDENCE HALL) Glossary"
+    },
+    {
+      "case": "26002546",
+      "dates": [
+        "09/12/2026",
+        "09/10/2026",
+        "09/12/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002546 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/12/2026 17:50 Disposition: Open Occurred Date: 09/10/2026 10:30 — 09/12/2026 17:30 Location: 615 N 19th St (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26002544",
+      "dates": [
+        "09/12/2026",
+        "09/12/2026",
+        "09/12/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002544 Incident Code: TRESPASSING Reported Date: 09/12/2026 13:53 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/12/2026 02:00 — 09/12/2026 03:00 Location: 880 N 17th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002541",
+      "dates": [
+        "09/12/2026",
+        "09/11/2026",
+        "09/12/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002541 Incident Code: LARCENY - STOLEN BIKE Reported Date: 09/12/2026 03:17 Disposition: Closed - Non-Criminal Case Occurred Date: 09/11/2026 17:00 — 09/12/2026 03:00 Location: 530 N 17th St (SIDEWALK) Case Number:"
+    },
+    {
+      "case": "26002530",
+      "dates": [
+        "09/11/2026",
+        "09/11/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002530 Incident Code: TRESPASSING Reported Date: 09/11/2026 18:29 Disposition: Closed - Non-Criminal Case Occurred Date: 09/11/2026 18:29 Location: 1400 R St (UNL SUPPORT FACILITY (office, service)) Glossary"
+    },
+    {
+      "case": "26002529",
+      "dates": [
+        "09/11/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002529 Incident Code: VANDALISM - BY GRAFFITI Reported Date: 09/11/2026 16:02 Disposition: Open Occurred Date: Unknown Location: 503 N 14th St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
+      "case": "26002523",
+      "dates": [
+        "09/11/2026",
+        "09/11/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002523 Incident Code: LARCENY - STOLEN BIKE Reported Date: 09/11/2026 10:32 Disposition: Open Occurred Date: 09/11/2026 10:07 Location: 1209 R St (UNL ACADEMIC BUILDING) Case Number:"
+    },
+    {
+      "case": "26002520",
+      "dates": [
+        "09/11/2026",
+        "09/11/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002520 Incident Code: ASSAULT - NON DOMESTIC Reported Date: 09/11/2026 00:01 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/11/2026 00:01 Location: N 16TH ST & R ST (SIDEWALK) Case Number:"
+    },
+    {
+      "case": "26002519",
+      "dates": [
+        "09/10/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002519 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/10/2026 22:28 Disposition: Open Occurred Date: Unknown Location: 1111 N 14th St (GOV'T PARKING GARAGE (UNL)) Glossary"
+    },
+    {
+      "case": "26002514",
+      "dates": [
+        "09/10/2026",
+        "09/10/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002514 Incident Code: UNL POLICY VIOLATION -OTHER Reported Date: 09/10/2026 17:55 Disposition: Open Occurred Date: 09/10/2026 17:45 Location: 1780 R St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002512",
+      "dates": [
+        "09/10/2026",
+        "09/09/2026",
+        "09/10/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002512 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRETENSE/OTHER Reported Date: 09/10/2026 17:16 Disposition: Open Occurred Date: 09/09/2026 20:44 — 09/10/2026 12:13 Location: 1120 N 14th St (INTERNET/CYBERSPACE) Case Number:"
+    },
+    {
+      "case": "26002511",
+      "dates": [
+        "09/10/2026",
+        "09/09/2026",
+        "09/10/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002511 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 09/10/2026 15:28 Disposition: Open Occurred Date: 09/09/2026 17:00 — 09/10/2026 06:50 Location: 1055 N 16th St (SIDEWALK) Case Number:"
+    },
+    {
+      "case": "26002510",
+      "dates": [
+        "09/10/2026",
+        "08/15/2026",
+        "09/09/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002510 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 09/10/2026 14:49 Disposition: Open Occurred Date: 08/15/2026 08:00 — 09/09/2026 17:00 Location: 1700 Vine St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
+      "case": "26002509",
+      "dates": [
+        "09/10/2026",
+        "09/08/2026",
+        "09/08/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002509 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/10/2026 13:59 Disposition: Open Occurred Date: 09/08/2026 09:00 — 09/08/2026 12:00 Location: 1111 N 14th St (GOV'T PARKING GARAGE (UNL)) Case Number:"
+    },
+    {
+      "case": "26002506",
+      "dates": [
+        "09/05/2026",
+        "09/05/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002506 Incident Code: MISSING PERSON - ADULT Reported Date: 09/05/2026 13:59 Disposition: Closed - Non-Criminal Case Occurred Date: 09/05/2026 10:52 Location: 1100 T St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
       "case": "26002476",
       "dates": [
         "09/08/2026",
@@ -36,8 +232,8 @@
         "09/08/2026",
         "09/08/2026"
       ],
-      "disposition": "open",
-      "raw": "26002475 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 09/08/2026 14:46 Disposition: Open Occurred Date: 09/08/2026 14:46 Location: 1055 N 16th St (INTERNET/CYBERSPACE) Glossary"
+      "disposition": "closed",
+      "raw": "26002475 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 09/08/2026 14:46 Disposition: Closed - Inactive Occurred Date: 09/08/2026 14:46 Location: 1055 N 16th St (INTERNET/CYBERSPACE) Glossary"
     },
     {
       "case": "26002473",
@@ -48,6 +244,232 @@
       ],
       "disposition": "closed",
       "raw": "26002473 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/08/2026 07:02 Disposition: Closed - Non-Criminal Case Occurred Date: 09/03/2026 14:00 — 09/03/2026 16:00 Location: 1101 T St (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26002469",
+      "dates": [
+        "09/07/2026",
+        "09/03/2026",
+        "09/04/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002469 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/07/2026 19:50 Disposition: Closed - Non-Criminal Case Occurred Date: 09/03/2026 22:00 — 09/04/2026 12:00 Location: 300 N 17th St (GOV'T PARKING GARAGE (UNL)) Glossary"
+    },
+    {
+      "case": "26002465",
+      "dates": [
+        "09/07/2026",
+        "09/07/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002465 Incident Code: LITTERING Reported Date: 09/07/2026 00:26 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/07/2026 00:26 Location: 1055 N 16th St (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26002459",
+      "dates": [
+        "09/06/2026",
+        "09/06/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002459 Incident Code: LOCK/UNLOCK BUILDING OR ROOM Reported Date: 09/06/2026 01:45 Disposition: Closed - Non-Criminal Case Occurred Date: 09/06/2026 01:45 Location: 1100 T St (UNL SUPPORT FACILITY (office, service)) Glossary"
+    },
+    {
+      "case": "26002458",
+      "dates": [
+        "09/06/2026",
+        "09/05/2026",
+        "09/06/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002458 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/06/2026 00:56 Disposition: Closed - Non-Criminal Case Occurred Date: 09/05/2026 20:00 — 09/06/2026 02:22 Location: 1130 N 14th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002457",
+      "dates": [
+        "09/05/2026",
+        "09/05/2026",
+        "09/05/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002457 Incident Code: EXTORTION Reported Date: 09/05/2026 23:51 Disposition: Open Occurred Date: 09/05/2026 21:47 — 09/05/2026 23:38 Location: 300 N 17th St (INTERNET/CYBERSPACE) Glossary"
+    },
+    {
+      "case": "26002453",
+      "dates": [
+        "09/05/2026",
+        "09/05/2026",
+        "09/05/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002453 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/05/2026 15:36 Disposition: Closed - Non-Criminal Case Occurred Date: 09/05/2026 08:30 — 09/05/2026 15:30 Location: 940 N 17th St (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26002451",
+      "dates": [
+        "09/05/2026",
+        "09/05/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002451 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/05/2026 10:53 Disposition: Closed - Inactive Occurred Date: 09/05/2026 10:53 Location: 630 N 14th St (GOV'T LOT/FIELD (UNL)) Case Number:"
+    },
+    {
+      "case": "26002444",
+      "dates": [
+        "09/05/2026",
+        "09/05/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002444 Incident Code: ALCOHOL - DWI Reported Date: 09/05/2026 04:36 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/05/2026 04:36 Location: N ANTELOPE VALLEY PKWY & Salt Creek RDWY (STREET) Case Number:"
+    },
+    {
+      "case": "26002443",
+      "dates": [
+        "09/05/2026",
+        "09/05/2026",
+        "09/05/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002443 Incident Code: VANDALISM - OTHER Reported Date: 09/05/2026 04:37 Disposition: Closed - Inactive Occurred Date: 09/05/2026 02:10 — 09/05/2026 02:13 Location: 1400 R St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
+      "case": "26002441",
+      "dates": [
+        "09/05/2026",
+        "09/05/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002441 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/05/2026 01:23 Disposition: Closed - Non-Criminal Case Occurred Date: 09/05/2026 01:23 Location: 1130 N 14th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002439",
+      "dates": [
+        "09/05/2026",
+        "09/05/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002439 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/05/2026 00:08 Disposition: Closed - Non-Criminal Case Occurred Date: 09/05/2026 00:08 Location: 1120 N 14th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002438",
+      "dates": [
+        "09/04/2026",
+        "09/04/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002438 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/04/2026 23:12 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/04/2026 23:12 Location: N 19TH ST & VINE ST (SIDEWALK) Glossary"
+    },
+    {
+      "case": "26002433",
+      "dates": [
+        "09/04/2026",
+        "09/01/2026",
+        "09/04/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002433 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/04/2026 15:58 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/01/2026 20:00 — 09/04/2026 15:58 Location: 1111 N 14th St (GOV'T PARKING GARAGE (UNL)) Case Number:"
+    },
+    {
+      "case": "26002426",
+      "dates": [
+        "09/04/2026",
+        "09/04/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002426 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/04/2026 02:46 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/04/2026 02:46 Location: 880 N 17th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002424",
+      "dates": [
+        "09/03/2026",
+        "09/03/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002424 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/03/2026 22:39 Disposition: Closed - Non-Criminal Case Occurred Date: 09/03/2026 22:39 Location: 880 N 17th St (UNL RESIDENCE HALL) Glossary"
+    },
+    {
+      "case": "26002415",
+      "dates": [
+        "09/03/2026",
+        "09/03/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002415 Incident Code: ALCOHOL - DRUNK Reported Date: 09/03/2026 01:51 Disposition: Closed - Non-Criminal Case Occurred Date: 09/03/2026 01:51 Location: 880 N 17th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002403",
+      "dates": [
+        "09/02/2026",
+        "09/01/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002403 Incident Code: DISTURBANCE - OTHER Reported Date: 09/02/2026 12:35 Disposition: Closed - Inactive Occurred Date: 09/01/2026 14:30 Location: 1309 N 17th St (UNL SUPPORT FACILITY (office, service)) Glossary"
+    },
+    {
+      "case": "26002387",
+      "dates": [
+        "09/01/2026",
+        "08/31/2026",
+        "09/01/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002387 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 09/01/2026 13:23 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 08/31/2026 20:30 — 09/01/2026 09:15 Location: 1130 N 14th St (UNL RESIDENCE HALL) Glossary"
+    },
+    {
+      "case": "26002379",
+      "dates": [
+        "08/31/2026",
+        "08/31/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002379 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 08/31/2026 23:54 Disposition: Open Occurred Date: 08/31/2026 17:00 Location: 1120 N 14th St (INTERNET/CYBERSPACE) Glossary"
+    },
+    {
+      "case": "26002373",
+      "dates": [
+        "08/31/2026",
+        "08/28/2026",
+        "08/28/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002373 Incident Code: DISTURBANCE - OTHER Reported Date: 08/31/2026 11:42 Disposition: Closed - Non-Criminal Case Occurred Date: 08/28/2026 09:30 — 08/28/2026 09:45 Location: 512 N 12th St (UNL ACADEMIC BUILDING) Case Number:"
+    },
+    {
+      "case": "26002372",
+      "dates": [
+        "08/31/2026",
+        "08/22/2026",
+        "08/24/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002372 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRETENSE/OTHER Reported Date: 08/31/2026 09:45 Disposition: Open Occurred Date: 08/22/2026 00:22 — 08/24/2026 17:00 Location: 1120 N 14th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002368",
+      "dates": [
+        "08/30/2026",
+        "08/30/2026",
+        "08/30/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002368 Incident Code: LARCENY - FROM MOTOR VEHICLE Reported Date: 08/30/2026 20:25 Disposition: Closed - Inactive Occurred Date: 08/30/2026 20:20 — 08/30/2026 20:25 Location: 2400 N Antelope Valley Pky (GOV'T PARKING LOT (UNL)) Glossary"
+    },
+    {
+      "case": "26002365",
+      "dates": [
+        "08/30/2026",
+        "08/30/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002365 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 08/30/2026 05:22 Disposition: Closed - Non-Criminal Case Occurred Date: 08/30/2026 05:22 Location: 1130 N 14th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002362",
+      "dates": [
+        "08/30/2026",
+        "08/30/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002362 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 08/30/2026 00:40 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 08/30/2026 00:40 Location: N 16TH ST & VINE ST (SIDEWALK) Case Number:"
     }
   ]
 }

@@ -170,10 +170,9 @@ def assess(raw_text: str, config: dict, sources: dict) -> dict:
     scored = []
     for it in pool:
         s = score_match(claim, it)
-        item_id = it.get("id", "")
-        # Google News items and crime-log rows are dated feed entries, so they age
-        # out after lookbackDays; other (seeded/curated) items are kept indefinitely.
-        window = lookback if item_id.startswith(("gn-", "cl-")) else 3650
+        # Fetched/scraped feed entries (gn-, dn-, cl-, ...) age out after
+        # lookbackDays; only hand-curated "seed-" items are kept indefinitely.
+        window = 3650 if str(it.get("id", "")).startswith("seed-") else lookback
         if s >= threshold and _recent(it.get("date", ""), window):
             scored.append({**it, "_score": s})
     scored.sort(key=lambda x: x["_score"], reverse=True)

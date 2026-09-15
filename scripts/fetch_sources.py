@@ -6,8 +6,11 @@ snapshot of the emergency.unl.edu active-incident page. Standard library only.
     python scripts/fetch_sources.py --days 45
 
 Items are pulled from Google News RSS scoped to each verified domain (robust and
-key-free) and de-duplicated by URL. Domains are tagged official/news from
-data/config.json. Seed items already in the file are kept.
+key-free), except the Daily Nebraskan, which has its own site RSS (TNCMS) that
+returns every published article instead of whatever Google happened to index --
+used directly for that domain. All items are de-duplicated by URL. Domains are
+tagged official/news from data/config.json. Seed items already in the file are
+kept.
 """
 from __future__ import annotations
 
@@ -36,6 +39,17 @@ def google_news_rss(query: str) -> bytes:
     return _get(
         "https://news.google.com/rss/search?"
         + urllib.parse.urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
+    )
+
+
+def daily_nebraskan_rss(limit: int = 100) -> bytes:
+    """The Daily Nebraskan runs on TNCMS (Townnews), which exposes its own search
+    RSS feed of every published article -- not just what Google News happens to
+    have indexed. Dropping the site's default '#topstory' keyword filter gets
+    everything, newest first."""
+    return _get(
+        "https://www.dailynebraskan.com/search/?"
+        + urllib.parse.urlencode({"f": "rss", "t": "article", "l": limit, "s": "start_time", "sd": "desc"})
     )
 
 
@@ -77,6 +91,43 @@ def parse_rss(xml_bytes: bytes, cutoff: datetime, domain: str, src_type: str, sr
     return out
 
 
+def parse_native_rss(xml_bytes: bytes, cutoff: datetime, domain: str, src_type: str, src_name: str) -> list[dict]:
+    """Parse a plain RSS 2.0 feed straight from the outlet's own site (real
+    article links, no Google redirect, no aggregator title-mangling)."""
+    try:
+        root = ET.fromstring(xml_bytes)
+    except ET.ParseError:
+        return []
+    out = []
+    for item in root.iterfind(".//item"):
+        title = html.unescape((item.findtext("title") or "").strip())
+        link = (item.findtext("link") or "").strip()
+        pub = item.findtext("pubDate")
+        try:
+            dt = parsedate_to_datetime(pub) if pub else None
+        except (TypeError, ValueError):
+            dt = None
+        if dt is None or not link:
+            continue
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        if dt < cutoff:
+            continue
+        summary = html.unescape(re.sub(r"<[^>]+>", " ", item.findtext("description") or ""))
+        summary = re.sub(r"\s+", " ", summary).strip()[:400]
+        out.append({
+            "id": f"dn-{abs(hash(link)) % (10**12)}",
+            "type": src_type,
+            "source": src_name,
+            "domain": domain,
+            "date": dt.date().isoformat(),
+            "title": title,
+            "url": link,
+            "summary": summary,
+        })
+    return out
+
+
 def fetch_active_incident_page() -> dict:
     url = "https://emergency.unl.edu/"
     try:
@@ -111,7 +162,7 @@ def main(argv=None) -> int:
     store = load_json("sources.json")
     cutoff = datetime.now(timezone.utc) - timedelta(days=args.days)
 
-    kept = [it for it in store.get("items", []) if not str(it.get("id", "")).startswith("gn-")]
+    kept = [it for it in store.get("items", []) if not str(it.get("id", "")).startswith(("gn-", "dn-"))]
     seen = {it.get("url") for it in kept if it.get("url")}
 
     fetched: list[dict] = []
@@ -119,9 +170,14 @@ def main(argv=None) -> int:
         dom = src["domain"]
         if dom == "unlalert.unl.edu":
             continue  # signup portal, nothing to index
-        query = f'site:{dom} (UNL OR "University of Nebraska" OR campus OR police OR alert OR safety)'
         try:
-            items = parse_rss(google_news_rss(query), cutoff, dom, src["type"], src["name"])
+            if dom == "dailynebraskan.com":
+                # Native site RSS: every published article, not just what Google
+                # News happened to index for this domain.
+                items = parse_native_rss(daily_nebraskan_rss(), cutoff, dom, src["type"], src["name"])
+            else:
+                query = f'site:{dom} (UNL OR "University of Nebraska" OR campus OR police OR alert OR safety)'
+                items = parse_rss(google_news_rss(query), cutoff, dom, src["type"], src["name"])
         except Exception as e:  # noqa: BLE001
             print(f"  ! {src['name']}: {e}", file=sys.stderr)
             continue

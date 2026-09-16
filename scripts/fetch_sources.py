@@ -8,9 +8,19 @@ snapshot of the emergency.unl.edu active-incident page. Standard library only.
 Items are pulled from Google News RSS scoped to each verified domain (robust and
 key-free), except the Daily Nebraskan, which has its own site RSS (TNCMS) that
 returns every published article instead of whatever Google happened to index --
-used directly for that domain. All items are de-duplicated by URL. Domains are
-tagged official/news from data/config.json. Seed items already in the file are
-kept.
+used directly for that domain. Nebraska Today's own feed is too shallow (fixed
+~10 items, no pagination) to replace Google outright, so it's added on top as a
+same-day supplement instead, de-duped by title. All items are de-duplicated by
+URL (or, for the Nebraska Today supplement, by normalized title, since a native
+link and a Google-redirect link for the same story never match as strings).
+Domains are tagged official/news from data/config.json. Seed items already in
+the file are kept.
+
+UNL Police and Lincoln Journal Star/1011 KOLN stay on Google News RSS only --
+UNL Police (Drupal) has no feed at all, and Journal Star/KOLN's own feeds are
+firehoses covering their whole coverage area (obituaries, wire news) with no
+working way to scope them to campus content, so Google's keyword-scoped search
+is the better fit for those two.
 """
 from __future__ import annotations
 
@@ -53,6 +63,17 @@ def daily_nebraskan_rss(limit: int = 100) -> bytes:
     )
 
 
+def nebraska_today_rss() -> bytes:
+    """Nebraska Today's own feed. Unlike the Daily Nebraskan's, this one has no
+    working pagination (always ~10 items, a few days deep) so it's used only as
+    a same-day supplement to the Google News pull below, not a replacement."""
+    return _get("https://news.unl.edu/feed/")
+
+
+def _norm_title(t: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", (t or "").lower())
+
+
 def parse_rss(xml_bytes: bytes, cutoff: datetime, domain: str, src_type: str, src_name: str) -> list[dict]:
     try:
         root = ET.fromstring(xml_bytes)
@@ -91,7 +112,8 @@ def parse_rss(xml_bytes: bytes, cutoff: datetime, domain: str, src_type: str, sr
     return out
 
 
-def parse_native_rss(xml_bytes: bytes, cutoff: datetime, domain: str, src_type: str, src_name: str) -> list[dict]:
+def parse_native_rss(xml_bytes: bytes, cutoff: datetime, domain: str, src_type: str, src_name: str,
+                      id_prefix: str = "dn") -> list[dict]:
     """Parse a plain RSS 2.0 feed straight from the outlet's own site (real
     article links, no Google redirect, no aggregator title-mangling)."""
     try:
@@ -116,7 +138,7 @@ def parse_native_rss(xml_bytes: bytes, cutoff: datetime, domain: str, src_type: 
         summary = html.unescape(re.sub(r"<[^>]+>", " ", item.findtext("description") or ""))
         summary = re.sub(r"\s+", " ", summary).strip()[:400]
         out.append({
-            "id": f"dn-{abs(hash(link)) % (10**12)}",
+            "id": f"{id_prefix}-{abs(hash(link)) % (10**12)}",
             "type": src_type,
             "source": src_name,
             "domain": domain,
@@ -162,7 +184,7 @@ def main(argv=None) -> int:
     store = load_json("sources.json")
     cutoff = datetime.now(timezone.utc) - timedelta(days=args.days)
 
-    kept = [it for it in store.get("items", []) if not str(it.get("id", "")).startswith(("gn-", "dn-"))]
+    kept = [it for it in store.get("items", []) if not str(it.get("id", "")).startswith(("gn-", "dn-", "nt-"))]
     seen = {it.get("url") for it in kept if it.get("url")}
 
     fetched: list[dict] = []
@@ -186,6 +208,27 @@ def main(argv=None) -> int:
             seen.add(it["url"])
         fetched.extend(new)
         print(f"  {src['name']:32s} +{len(new)}")
+
+    # Nebraska Today also runs its own feed (news.unl.edu/feed/), but it's a
+    # fixed ~10 items with no working pagination -- too shallow to replace the
+    # Google News pull above, so it's only used to catch same-day items Google
+    # hasn't indexed yet. De-duped by normalized title (not just URL), since the
+    # native link and the Google-redirect link for the same story never match.
+    nt_src = next((s for s in config["verifiedSources"] if s["domain"] == "news.unl.edu"), None)
+    if nt_src:
+        try:
+            nt_items = parse_native_rss(nebraska_today_rss(), cutoff, nt_src["domain"],
+                                         nt_src["type"], nt_src["name"], id_prefix="nt")
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! Nebraska Today (native feed): {e}", file=sys.stderr)
+            nt_items = []
+        known_titles = {_norm_title(x["title"]) for x in kept + fetched}
+        new_nt = [it for it in nt_items
+                  if it["url"] not in seen and _norm_title(it["title"]) not in known_titles]
+        for it in new_nt:
+            seen.add(it["url"])
+        fetched.extend(new_nt)
+        print(f"  Nebraska Today (native feed, same-day supplement) +{len(new_nt)}")
 
     store["items"] = sorted(kept + fetched, key=lambda x: x.get("date", ""), reverse=True)
     store["fetchedAt"] = now_iso()

@@ -113,23 +113,11 @@ function renderResult(r) {
       `</div></div>`;
   }
 
-  if (r.latestOfficialAlert && r.latestOfficialAlert.title) {
-    const a = r.latestOfficialAlert;
-    h +=
-      `<div class="block"><h4>Most recent official item on file</h4>` +
-      `<div class="src"><div class="s-title"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></div>` +
-      `<div class="s-meta">${esc(fmtDate(a.date))}</div></div></div>`;
-  }
-
   if (ai) {
     h += `<div class="block"><h4>AI web check</h4>`;
     h += `<div class="ai-summary">${esc(ai.summary || "")}</div>`;
     h += srcListHtml(ai.sources || []);
     h += `</div>`;
-  } else if (aiErr) {
-    h += `<div class="banner-warn">AI web check unavailable: ${esc(aiErr.summary || "")} — heuristic result shown.</div>`;
-  } else if (r.ai === null && $("#use-ai").checked) {
-    h += `<div class="banner-warn">AI web check is off on the server (no <code>anthropic</code> package or credentials). Showing cached-source matching only.</div>`;
   }
 
   const H = r.heuristic;
@@ -145,6 +133,12 @@ function renderResult(r) {
   h += `<div class="block"><h4>Check these verified sources yourself</h4><div class="searchlinks">`;
   h += (r.searches || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`).join("");
   h += `</div></div>`;
+
+  if (aiErr) {
+    h += `<div class="banner-warn">AI web check unavailable: ${esc(aiErr.summary || "")} — heuristic result shown.</div>`;
+  } else if (r.ai === null && $("#use-ai").checked) {
+    h += `<div class="banner-warn">AI web check is off on the server (no <code>anthropic</code> package or credentials). Showing cached-source matching only.</div>`;
+  }
 
   h += `<div class="fresh">Checked ${esc(fmtTime(r.checkedAt))}. `;
   h += r.sourcesFetchedAt ? `Source cache from ${esc(fmtTime(r.sourcesFetchedAt))}.` : `Source cache not yet built.`;

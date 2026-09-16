@@ -2,6 +2,123 @@
   "_note": "Log of rumor checks run through the app or scripts/check_rumor.py, newest first. Written automatically.",
   "checks": [
     {
+      "checkedAt": "2026-09-16T04:16:12+00:00",
+      "claim": "the nebraska volleyball game got rescheduled",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "reported_news",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-16T04:14:29+00:00",
+      "claim": "there was a domestic assault on campus",
+      "category": "safety",
+      "isSafety": true,
+      "heuristicStatus": "confirmed_official",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-15T23:49:12+00:00",
+      "claim": "Sister Cindy came to Lincoln for a tour",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "reported_news",
+      "aiStatus": null,
+      "aiSummary": null
+    },
+    {
+      "checkedAt": "2026-09-15T23:43:01+00:00",
+      "claim": "Cameron the capital cat retired",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-15T23:42:53+00:00",
+      "claim": "Cameron the capital cat died",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-15T23:41:34+00:00",
+      "claim": "someone got a minor in possession",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "confirmed_official",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-15T23:41:26+00:00",
+      "claim": "minor in possession",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "confirmed_official",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-15T23:41:07+00:00",
+      "claim": "someone got a minor in possesion",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-15T23:40:59+00:00",
+      "claim": "someone got an MIP",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-15T23:33:36+00:00",
+      "claim": "minor in possession near the dorms",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "confirmed_official",
+      "aiStatus": null,
+      "aiSummary": null
+    },
+    {
+      "checkedAt": "2026-09-15T23:33:23+00:00",
+      "claim": "someone stole a bike near campus",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "no_match",
+      "aiStatus": null,
+      "aiSummary": null
+    },
+    {
+      "checkedAt": "2026-09-15T23:24:37+00:00",
+      "claim": "there was a domestic violence case on campus",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "confirmed_official",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-15T23:16:53+00:00",
+      "claim": "Two minors dead after Euclid shooting, police say",
+      "category": "safety",
+      "isSafety": true,
+      "heuristicStatus": "reported_news",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
       "checkedAt": "2026-09-15T23:14:52+00:00",
       "claim": "Sister Cindy was at UNL",
       "category": "general",

@@ -2,6 +2,24 @@
   "_note": "Log of rumor checks run through the app or scripts/check_rumor.py, newest first. Written automatically.",
   "checks": [
     {
+      "checkedAt": "2026-09-17T21:54:04+00:00",
+      "claim": "someone got a minor in possession on campus",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "confirmed_official",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
+      "checkedAt": "2026-09-16T04:35:36+00:00",
+      "claim": "Stolen bike on campus",
+      "category": "general",
+      "isSafety": false,
+      "heuristicStatus": "confirmed_official",
+      "aiStatus": "error",
+      "aiSummary": "AI check failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+    },
+    {
       "checkedAt": "2026-09-16T04:16:12+00:00",
       "claim": "the nebraska volleyball game got rescheduled",
       "category": "general",

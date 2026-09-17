@@ -1,0 +1,46 @@
+name: Refresh source cache
+
+# Keeps data/sources.json and data/crimelog_raw.json current without anyone
+# having to run scripts/fetch_sources.py / scrape_crimelog.py by hand. Runs on
+# GitHub's servers on a schedule, independent of whether your machine is on --
+# and once deployed, a Vercel project connected to this repo auto-redeploys on
+# every commit here, so this is also how the live site's data cache stays
+# fresh (no server-side writes needed at runtime).
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"   # 00:15, 06:15, 12:15, 18:15 UTC (~4x/day)
+  workflow_dispatch: {}       # adds a "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Both scripts are standard-library only -- nothing to pip install.
+      - name: Fetch verified-source feed (Daily Nebraskan, Nebraska Today, etc.)
+        run: python scripts/fetch_sources.py
+
+      - name: Refresh UNL crime & fire log (walk the visible calendar window)
+        run: python scripts/scrape_crimelog.py --backfill
+
+      - name: Commit updated data, if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/sources.json data/crimelog_raw.json
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "Automated data refresh"
+            git pull --rebase origin main
+            git push
+          fi

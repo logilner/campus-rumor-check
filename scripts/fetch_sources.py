@@ -28,6 +28,8 @@ import argparse
 import html
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -39,10 +41,26 @@ from _common import load_json, now_iso, save_json
 UA = "Mozilla/5.0 (compatible; CampusRumorCheck/1.0; local research tool)"
 
 
-def _get(url: str, timeout: int = 30) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+def _get(url: str, timeout: int = 30, retries: int = 2, backoff: float = 3.0) -> bytes:
+    """GET with a couple of retries for transient failures (rate limiting,
+    momentary 5xx) -- shared/cloud runner IPs (e.g. GitHub Actions) get rate
+    limited by some sites more readily than a residential IP does."""
+    last_err: Exception | None = None
+    for attempt in range(retries + 1):
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            last_err = e
+            if e.code not in (429, 500, 502, 503, 504) or attempt == retries:
+                raise
+        except (urllib.error.URLError, TimeoutError) as e:
+            last_err = e
+            if attempt == retries:
+                raise
+        time.sleep(backoff * (attempt + 1))
+    raise last_err  # pragma: no cover - loop always returns or raises above
 
 
 def google_news_rss(query: str) -> bytes:
@@ -184,7 +202,17 @@ def main(argv=None) -> int:
     store = load_json("sources.json")
     cutoff = datetime.now(timezone.utc) - timedelta(days=args.days)
 
-    kept = [it for it in store.get("items", []) if not str(it.get("id", "")).startswith(("gn-", "dn-", "nt-"))]
+    old_items = store.get("items", [])
+    kept = [it for it in old_items if not str(it.get("id", "")).startswith(("gn-", "dn-", "nt-"))]
+    # Regenerable items (from a past fetch), grouped by domain, so a failed fetch
+    # this run can fall back to what was already there instead of losing it --
+    # a transient error (rate limiting, a timeout) should not silently wipe out a
+    # domain's data just because "kept" already dropped it in anticipation of a
+    # fresh fetch that then didn't happen.
+    prior_by_domain: dict[str, list[dict]] = {}
+    for it in old_items:
+        if str(it.get("id", "")).startswith(("gn-", "dn-", "nt-")):
+            prior_by_domain.setdefault(it.get("domain"), []).append(it)
     seen = {it.get("url") for it in kept if it.get("url")}
 
     fetched: list[dict] = []
@@ -201,7 +229,13 @@ def main(argv=None) -> int:
                 query = f'site:{dom} (UNL OR "University of Nebraska" OR campus OR police OR alert OR safety)'
                 items = parse_rss(google_news_rss(query), cutoff, dom, src["type"], src["name"])
         except Exception as e:  # noqa: BLE001
-            print(f"  ! {src['name']}: {e}", file=sys.stderr)
+            carried = prior_by_domain.get(dom, [])
+            print(f"  ! {src['name']}: {e} -- keeping {len(carried)} previously-fetched item(s)",
+                  file=sys.stderr)
+            for it in carried:
+                if it.get("url"):
+                    seen.add(it["url"])
+            fetched.extend(carried)
             continue
         new = [it for it in items if it["url"] and it["url"] not in seen]
         for it in new:

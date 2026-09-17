@@ -1,9 +1,9 @@
 {
   "_note": "Cache of recent items from verified sources, written by scripts/fetch_sources.py. 'type' is 'official' or 'news'. The rumor check matches claims against these items. Seeded with a few known items so matching works before the first fetch.",
-  "fetchedAt": "2026-09-17T23:52:52+00:00",
+  "fetchedAt": "2026-09-17T23:53:35+00:00",
   "activeIncidentPage": {
     "url": "https://emergency.unl.edu/",
-    "checkedAt": "2026-09-17T23:52:52+00:00",
+    "checkedAt": "2026-09-17T23:53:35+00:00",
     "text": "oln Apply University of Nebraska–Lincoln Give University of Nebraska–Lincoln Nebraska Emergency Information Home Campus Incident Updates Campus Incident Updates will be posted here. There are no current incidents. Report an Emergency Call or text 911 immediately. This is the official information website for the University of Nebraska-Lincoln in the event of an emergency on our campuses. When a UNL Alert is issued the university may refer members of the campus, the public, and media to this website for the most up-to-date information and guidance during an ongoing active emergency event. When t"
   },
   "items": [
@@ -478,16 +478,6 @@
       "summary": ""
     },
     {
-      "id": "gn-df9bc31ad1b3",
-      "type": "official",
-      "source": "UNL Police",
-      "domain": "police.unl.edu",
-      "date": "2026-09-15",
-      "title": "- UNL Police",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDSGgzQjNnSkllVFJWb3BmY2Y4OVRlYmdnMnAyY0tDeWRKeFV6V2lYcXNtaURiQk91Z3ZHUjYtOENNZXc0OWg4SmEwazZPQmpvS1pfeXJXOHRXeXdRemEyTEZpclY?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-baedb5a24ada",
       "type": "official",
       "source": "UNL Police",
@@ -495,6 +485,16 @@
       "date": "2026-09-15",
       "title": "- UNL Police",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIUmltcXhpSWF0d1ZIQ09ZSGRqcHh5cWhkSENSTElZYzYzRXJmLXctbnFGX1FSQXpCcFNfY2JGc2pyMDMwejVvN1pyUTBhbjdsSjhVNE42Vmg2QVdQWlE1cHhn?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-ce796f1b783d",
+      "type": "official",
+      "source": "UNL Police",
+      "domain": "police.unl.edu",
+      "date": "2026-09-15",
+      "title": "- UNL Police",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82SGdJWDdHRUxVQmZmNTRDRS1ReHpId01yZzZfMFVuSXJ5RVpNRVE0VXg0RXlwN3hpc0Y1UFVEcDlnN19PZFI1emNWTnFNSzhQbVZfNzBDVm5qdnBWUHZWdmIxR20?oc=5",
       "summary": ""
     },
     {
@@ -738,16 +738,6 @@
       "summary": "Welcome to Around the Big Ten, where we break down each Big Ten game across the conference."
     },
     {
-      "id": "gn-f710916a2eb2",
-      "type": "news",
-      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-      "domain": "1011now.com",
-      "date": "2026-09-14",
-      "title": "Lincoln police find missing woman with dementia",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWnlrSnZnTUlyU3lKS2hQdEV1Tnlua29xZnVObU1WV1AxWnRqbnRZR0VzT3JpN0JUNVRBc0pLUjJqdjIxMHNJTUdnTTVMX2xMQlBZV3BSZkJRTHpoazZlZFByNTVMRHlnSU9KM0dDQXBlMkF4Q3JMSDVRQmpCNnF0Ymo2NzgxTm9RNlVYcFdFMVdOZ9IBpgFBVV95cUxNaHRjTEptcEFtaGozekc5allfaEYtdnBpaGZ2TE92eWZ1cWtDRFZTYzdmTEtrSk9CaWN3NmJGaWdsa2M4NVdCT052SE90SEFrRGNjbDhtOWFBN0RqWFk3c2ZHbEVFWXdyZ0R5MkwwSnAyMVdXZnBZLXhvd3ZNc29TNWx3OXJZWkZwdUxONGU3Nk9kclBXbVZIUGhUSFRXOUU4R1NJWHFB?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-62702f441d96",
       "type": "news",
       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
@@ -825,6 +815,16 @@
       "date": "2026-09-14",
       "title": "Employee accused of deleting own bill, altering hundreds of patient records, police say",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb3JNcC1pZVU0VEl4RFZOTURnN1JrUFpURGlRSjdLLXdlUUF3M2JRSEtzaEtJQVp5TmdQSGpteEtybUo1WXFTWWpMSDkzeXJFWXFMV1lnc0UybzFGd3Y0ZGV3YW1ZbXk2N2JkbGhtVW5vY3FRbW1wdGhDMWdnNm5PV2tiSk9lQ05DVVVxWUo3dHBzVGZfQ3U0MTFLWkljcXFyeGtwdWhBek5RV0xMVFdkS3RlTnVkUQ?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-f710916a2eb2",
+      "type": "news",
+      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+      "domain": "1011now.com",
+      "date": "2026-09-14",
+      "title": "Lincoln police find missing woman with dementia",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWnlrSnZnTUlyU3lKS2hQdEV1Tnlua29xZnVObU1WV1AxWnRqbnRZR0VzT3JpN0JUNVRBc0pLUjJqdjIxMHNJTUdnTTVMX2xMQlBZV3BSZkJRTHpoazZlZFByNTVMRHlnSU9KM0dDQXBlMkF4Q3JMSDVRQmpCNnF0Ymo2NzgxTm9RNlVYcFdFMVdOZ9IBpgFBVV95cUxNaHRjTEptcEFtaGozekc5allfaEYtdnBpaGZ2TE92eWZ1cWtDRFZTYzdmTEtrSk9CaWN3NmJGaWdsa2M4NVdCT052SE90SEFrRGNjbDhtOWFBN0RqWFk3c2ZHbEVFWXdyZ0R5MkwwSnAyMVdXZnBZLXhvd3ZNc29TNWx3OXJZWkZwdUxONGU3Nk9kclBXbVZIUGhUSFRXOUU4R1NJWHFB?oc=5",
       "summary": ""
     },
     {
@@ -1825,6 +1825,16 @@
       "date": "2026-08-27",
       "title": "Death of woman pulled from south Lincoln camper fire ruled suspicious, police say",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa0YxOThiUGYzNjhsaTB4N241bVpYWFF0VzBQVTdKM0VtMWNqSXh0UDk4Z2MtcTlTOEdJbGZwZWxTM0c1bHNLazdmZ2ttUEpWWkVzblZ5WlNua3lDNFlMTWYxME5TSGRDaENTQVpnM1pVazNtdm5GQlhwd3VXVVpONTgtYXIxbUpLY2RudWRkRFlXQWhqd2Zrc0I1aW5VNmNPMi11X2dnNFFXTTgx?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-4c511b448c73",
+      "type": "official",
+      "source": "Nebraska Today",
+      "domain": "news.unl.edu",
+      "date": "2026-08-25",
+      "title": "Ballard's handiwork dots campus scenery",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlOGF4dEtXVnFVeElVcXZkNEJlX0phYjV6Wk1mT3FzczNDY1A2T0NLTHhxejJCOWRhRU45UEw2QVREbDlxM2VSa043eDJWeTJLSmd3MElDTHQ2dzgtWFNDYlFiY2RCUXl3VDFtNnU1Qm56U3B1cEE?oc=5",
       "summary": ""
     },
     {

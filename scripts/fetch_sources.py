@@ -25,6 +25,7 @@ is the better fit for those two.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import re
 import sys
@@ -39,6 +40,13 @@ from email.utils import parsedate_to_datetime
 from _common import load_json, now_iso, save_json
 
 UA = "Mozilla/5.0 (compatible; CampusRumorCheck/1.0; local research tool)"
+
+
+def _stable_id(prefix: str, link: str) -> str:
+    """A hash that's the same across runs/processes, unlike Python's salted
+    hash() -- so re-fetching an unchanged item doesn't rewrite its id and turn
+    every scheduled refresh into a full-file diff."""
+    return f"{prefix}-{hashlib.sha1(link.encode('utf-8')).hexdigest()[:12]}"
 
 
 def _get(url: str, timeout: int = 30, retries: int = 2, backoff: float = 3.0) -> bytes:
@@ -118,7 +126,7 @@ def parse_rss(xml_bytes: bytes, cutoff: datetime, domain: str, src_type: str, sr
         if srcname and title.endswith(f" - {srcname}"):
             headline = title[: -(len(srcname) + 3)]
         out.append({
-            "id": f"gn-{abs(hash(link)) % (10**12)}",
+            "id": _stable_id("gn", link),
             "type": src_type,
             "source": srcname,
             "domain": domain,
@@ -156,7 +164,7 @@ def parse_native_rss(xml_bytes: bytes, cutoff: datetime, domain: str, src_type: 
         summary = html.unescape(re.sub(r"<[^>]+>", " ", item.findtext("description") or ""))
         summary = re.sub(r"\s+", " ", summary).strip()[:400]
         out.append({
-            "id": f"{id_prefix}-{abs(hash(link)) % (10**12)}",
+            "id": _stable_id(id_prefix, link),
             "type": src_type,
             "source": src_name,
             "domain": domain,

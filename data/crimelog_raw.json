@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-19T04:41:15+00:00",
+  "scrapedAt": "2026-09-19T11:02:41+00:00",
   "rows": [
+    {
+      "case": "26002653",
+      "dates": [
+        "09/18/2026",
+        "09/18/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002653 Incident Code: NARCOTICS - POSSESSION Reported Date: 09/18/2026 23:50 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/18/2026 23:50 Location: ANTELOPE VALLEY PARKWAY & S ST (STREET) Glossary"
+    },
     {
       "case": "26002649",
       "dates": [
@@ -9,7 +18,7 @@
         "09/18/2026"
       ],
       "disposition": "closed",
-      "raw": "26002649 Incident Code: DISTURBANCE - OTHER Reported Date: 09/18/2026 20:46 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/18/2026 20:46 Location: 880 N 17th St (UNL RESIDENCE HALL) Glossary"
+      "raw": "26002649 Incident Code: DISTURBANCE - OTHER Reported Date: 09/18/2026 20:46 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/18/2026 20:46 Location: 880 N 17th St (UNL RESIDENCE HALL) Case Number:"
     },
     {
       "case": "26002645",
@@ -449,8 +458,8 @@
         "09/05/2026",
         "09/05/2026"
       ],
-      "disposition": "open",
-      "raw": "26002457 Incident Code: EXTORTION Reported Date: 09/05/2026 23:51 Disposition: Open Occurred Date: 09/05/2026 21:47 — 09/05/2026 23:38 Location: 300 N 17th St (INTERNET/CYBERSPACE) Glossary"
+      "disposition": "closed",
+      "raw": "26002457 Incident Code: EXTORTION Reported Date: 09/05/2026 23:51 Disposition: Closed - Inactive Occurred Date: 09/05/2026 21:47 — 09/05/2026 23:38 Location: 300 N 17th St (INTERNET/CYBERSPACE) Glossary"
     },
     {
       "case": "26002453",

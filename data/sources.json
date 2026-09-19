@@ -1,9 +1,9 @@
 {
   "_note": "Cache of recent items from verified sources, written by scripts/fetch_sources.py. 'type' is 'official' or 'news'. The rumor check matches claims against these items. Seeded with a few known items so matching works before the first fetch.",
-  "fetchedAt": "2026-09-19T11:02:13+00:00",
+  "fetchedAt": "2026-09-19T15:54:12+00:00",
   "activeIncidentPage": {
     "url": "https://emergency.unl.edu/",
-    "checkedAt": "2026-09-19T11:02:13+00:00",
+    "checkedAt": "2026-09-19T15:54:12+00:00",
     "text": "oln Apply University of Nebraska–Lincoln Give University of Nebraska–Lincoln Nebraska Emergency Information Home Campus Incident Updates Campus Incident Updates will be posted here. There are no current incidents. Report an Emergency Call or text 911 immediately. This is the official information website for the University of Nebraska-Lincoln in the event of an emergency on our campuses. When a UNL Alert is issued the university may refer members of the campus, the public, and media to this website for the most up-to-date information and guidance during an ongoing active emergency event. When t"
   },
   "items": [
@@ -28,16 +28,6 @@
       "summary": ""
     },
     {
-      "id": "gn-0067f94bef47",
-      "type": "news",
-      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-      "domain": "1011now.com",
-      "date": "2026-09-19",
-      "title": "Lincoln’s Table: El Muchacho Alegre brings authentic Mexican flavors to Nebraska",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVUhablpVbXBCVFlUOC1HT2R2QWhfSmRzS3hESU9zYy0weWdFNFppRnpvOUZYemU3NG9WNFNPMnhzMTFqXzlLQllWWmdtUEdaYW1ZNG9PR1N2MGIteFRuM2lPRUltVU51eEVUb3FCemRPZzYtMUNLN1U5UGdJY3VsUVFXVVlVMS1kRUU1QjRNeHdwbmdPcU5WRVhwS1NRczVvUF9wRXQ1aGNmbHp1azFPbdIBxAFBVV95cUxOVE9pUnpCdFdkWXlvT3VDS0thcTRvNGdmbE1CdExhbERZaEViX1BhaC1qblZzXzJraVNkWUJpLXlLalBtM3FnUE1sT1VURkM0bWVGZWp0NTM1SURFako1QWVjWjc4aVZCUl9odmZfR3JHSHZma3JQZThKWlg2cDNTTmZONmsyejhhRTh5V2JrbFBRWXk5dFNJQ1VwZHVGZExuNmxwSnl1Ukl1YnZYTFN4VzZnQ3lpYXVMWUlOSXhyMkYzSzlP?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-9a84a501a199",
       "type": "news",
       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
@@ -48,13 +38,33 @@
       "summary": ""
     },
     {
-      "id": "gn-c244dbe609d2",
+      "id": "gn-077fef675d6c",
       "type": "news",
-      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-      "domain": "1011now.com",
+      "source": "Lincoln Journal Star",
+      "domain": "journalstar.com",
       "date": "2026-09-19",
-      "title": "Woman becomes trooper after husband killed by drunk driver",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSGtHTnRBaWNHelVpSFlvbVIxSzE2LTIycGJacy1iTTlrSmQ5S2R6Njg5OVNjU1l6SE84eTJaUGVZQ0VqV1BDSWI2UDFQN29ieTNHVXJDX0tkdFdnVVJkTmU2NWZMUUdkTWtzQU12RGd5M0JVMU9CRmxwSElRUExMQW40QU9ORGxQZ0ZXTmxnb1h1UEJ3MDlDeFlR0gGuAUFVX3lxTFAxZnlxOVNkNG04SkNEbXFZNUlBeW9DTkdHOFFtVXVUa3B1V1YxTnpXMnFwTDdqR3R6ME5hWVYzZmdHck05cnMtQVZqSkd2bnFhOHdQQmRmSzMzOHY1dnpKVlRWMm5ET3pOQmFVcTF4QVlQT096UE1JaGZIaFRacEEySnlnSnlaUlNTaXJkQjBHeW5QZkVtQlpHMmJfQ09TZ2k5ZjlIbDJ4cy0wSmJjZw?oc=5",
+      "title": "She dreamed of becoming a nurse. Tuesday, a single shot killed her.",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSHNVYXpwbnNWMWdIbXZ2aTJ0Qnl2M2xiVy1NQWdTSUg4QVFpTTNva0dpNFlKWUZvSUM4RHRocmN6RXpmNnFscFVGRkk2UjhraXVxY3UyUEZ0dXpSaVZCNkUyZjVoWTJuQXhYakFrMXpWWWdxQnhLTXdZYjVmV1hNajF3eWttUVlZdl9DUGxTWVZseUdyajVJOURkb3NiZw?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-c26a31f3263f",
+      "type": "news",
+      "source": "Lincoln Journal Star",
+      "domain": "journalstar.com",
+      "date": "2026-09-19",
+      "title": "A place in Nebraska history: Tom Osborne enters state Hall of Fame",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQWNKZy1wM3UwajJYVE5najBHQVhfVlZqazZOUERpSjNlN08tZkc2alowNkpPX0hhMDV6UHlMOGJnSVJDcHo2MlQxN3F4WGxmOElBdkVtakt0YUFZMWZnUDg1cEYtNnBiYmJvWUpaNnJvWGFXUzVvdE0wRXJvZl9wT0llako4OXdvbGFHdmp0RjVpVE5YZlBRaGZBS2s0dw?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-5a493390c384",
+      "type": "news",
+      "source": "Lincoln Journal Star",
+      "domain": "journalstar.com",
+      "date": "2026-09-19",
+      "title": "Week 4 Nebraska high school football scores:",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSDlqdnZkRFhXNThzY3AtbmY1MXI2WElBUzJFZDFPRHpsLWMyT1lWMFZOZk1ReTEzQ0VUVUpuWklXRFhMaHlyRFh3RGRGRUVXVjZJc0tGWnkzU0lWYU5LVVFvS0w5WjdITHJlY3NuRmxDbDdyQjI3TjdTYV9NUHFKNks0eEdRb0pVa0Zub0g3R1NEVGs0YUx4dlNaTjFDdUpPOXZr?oc=5",
       "summary": ""
     },
     {
@@ -258,16 +268,6 @@
       "summary": ""
     },
     {
-      "id": "gn-d76136f7ab15",
-      "type": "news",
-      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-      "domain": "1011now.com",
-      "date": "2026-09-18",
-      "title": "Construction worker hit and killed while working on the interstate, police say",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYnl4M0hqSDMyNXREX2NqaFQxam1LRFprSWMxaldpdmFEcFJWMlRXRTRwNVhQY3JnVi11a29ZbUJseWJ2eFAxcU42dDEzYnh1d1JhNWs3eElPaVAwMlFhSS1jVGRQdXpnX2ZZWGVPQVoxOHhJVnZBd0pJczVEZGtUTmNMejR0N2tBOFdNTm1zZWR3LVRUS2tkOU8yREZ1azZIZ09xRtIBuAFBVV95cUxPTUU4UmZMU2Z6Uy0tMlhuWEYyQ0hnUFpKUFpNUDN2Y2ttNUNEMVB2OWNyZFoxcVBhUTc1clRKdjBXc3JKb3BObEl0UzY1dFdQVXh0U29oOHVqSUFXUHk4SkRCek5PSWROVHRoY0VGOHQ0Z1AtWW5HYWtIUkNTLWZ6TnljZ0RJbFBFdTF6REwwcHhOWENET2YtaHp0X3JKN1gzVUxvWnV2YVJXLTdrbDhfeWUzRDlvenVK?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-da89c8582a5d",
       "type": "news",
       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
@@ -308,13 +308,13 @@
       "summary": ""
     },
     {
-      "id": "gn-a8ebf12f47ba",
+      "id": "gn-87c65321332d",
       "type": "news",
       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
       "domain": "1011now.com",
       "date": "2026-09-18",
-      "title": "Lincoln man held without bond in fatal shooting of 19-year-old woman",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFZoTnU2d1VMRFdON20yOU1QN1BmUUR0dGU1dV9FZjZ1NDgyRmpGWlJqWVVQMFBmdDAwSU9OU3ZBTm1rNlVlNGhLZWE0UlVxdGlZZnczMTF2VTJfb3ZJWGVQOS1PMHRZWVFTTGhKR1NTaFB1OWwzWEY3T1hoZ3cwWUV3b0V5U0s1dmFpYklnZnpZcmJ5aDR2UmdrQ3Nha2fSAbMBQVVfeXFMT3ZwNzByVzJib0lCVnlOWF9mcEtJV3g3dzZOS1hqQVRMVnFjTFVpTFhnLXB0TVg0aEdpT1RBT1Z5bDhHZFE0d3gtc0t1UGliV0FqdElhb2prU0xPclFxcnk4WU0yVG9oaDJSckdQOVFqTDBueXVwV1dEZVgwbFlhNlFEdlBjSFluZUNGOC1LUjNGOURKRVBKSXZKd09tY3pEVjNPak5ETGctM2VpUUIyalpQTkE?oc=5",
+      "title": "12-year-old girl dies after SUV backs into her in church parking lot, authorities say",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOVBEWjdraEY2MEdEN2hBUjRIX1VTTVpvZ1JkV2VaUFRrUTQ1YmNVNkkyU0NBVnF0M09KREhfOXR5dHlUSDBFbDhaQVBoYWNyblRMUFNiNW1NbkdqbV9fc3ZpTzJrYlN6ZUNIT0xWTGRYdTNhNGtGSkxKQ2Rib1RTeFg3ZHdlUFd4U192X0xBLWV5bnplU29ZOXRYRGNDNmY5LVJpcnFiYXhzSDZyQ1JrbkcweVVrYTFO0gHMAUFVX3lxTE91ay1CeDFaS1JfSXU4NDZudlRmSTJVdkFoLVpGUy1wbGozWUliODFfeGtTYXdQRkhvTU1wdHhXWk15VEsxbGRrMlRBa0dyQnN4V0lmUU5qWUdrNW80MDJGZmdpRmdUZE9Ud2VSUG1kV09id2l5SVNsNW9sZlB1SHJRT28ydTQ4OFVtUHVSZWh0OUJvTHUtVkhTUG50NUdQT2FxWmZBcU5MaGFLOUc1cjNOX0Yya1hMVm5wQzBjTFFFeXlSLTAta3U5d0FDeQ?oc=5",
       "summary": ""
     },
     {
@@ -328,6 +328,16 @@
       "summary": ""
     },
     {
+      "id": "gn-a8ebf12f47ba",
+      "type": "news",
+      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+      "domain": "1011now.com",
+      "date": "2026-09-18",
+      "title": "Lincoln man held without bond in fatal shooting of 19-year-old woman",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFZoTnU2d1VMRFdON20yOU1QN1BmUUR0dGU1dV9FZjZ1NDgyRmpGWlJqWVVQMFBmdDAwSU9OU3ZBTm1rNlVlNGhLZWE0UlVxdGlZZnczMTF2VTJfb3ZJWGVQOS1PMHRZWVFTTGhKR1NTaFB1OWwzWEY3T1hoZ3cwWUV3b0V5U0s1dmFpYklnZnpZcmJ5aDR2UmdrQ3Nha2fSAbMBQVVfeXFMT3ZwNzByVzJib0lCVnlOWF9mcEtJV3g3dzZOS1hqQVRMVnFjTFVpTFhnLXB0TVg0aEdpT1RBT1Z5bDhHZFE0d3gtc0t1UGliV0FqdElhb2prU0xPclFxcnk4WU0yVG9oaDJSckdQOVFqTDBueXVwV1dEZVgwbFlhNlFEdlBjSFluZUNGOC1LUjNGOURKRVBKSXZKd09tY3pEVjNPak5ETGctM2VpUUIyalpQTkE?oc=5",
+      "summary": ""
+    },
+    {
       "id": "gn-2f64cea98ba5",
       "type": "news",
       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
@@ -338,23 +348,13 @@
       "summary": ""
     },
     {
-      "id": "gn-077fef675d6c",
+      "id": "gn-822a06aaf928",
       "type": "news",
-      "source": "Lincoln Journal Star",
-      "domain": "journalstar.com",
+      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+      "domain": "1011now.com",
       "date": "2026-09-18",
-      "title": "She dreamed of becoming a nurse. Tuesday, a single shot killed her.",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSHNVYXpwbnNWMWdIbXZ2aTJ0Qnl2M2xiVy1NQWdTSUg4QVFpTTNva0dpNFlKWUZvSUM4RHRocmN6RXpmNnFscFVGRkk2UjhraXVxY3UyUEZ0dXpSaVZCNkUyZjVoWTJuQXhYakFrMXpWWWdxQnhLTXdZYjVmV1hNajF3eWttUVlZdl9DUGxTWVZseUdyajVJOURkb3NiZw?oc=5",
-      "summary": ""
-    },
-    {
-      "id": "gn-c26a31f3263f",
-      "type": "news",
-      "source": "Lincoln Journal Star",
-      "domain": "journalstar.com",
-      "date": "2026-09-18",
-      "title": "Tom Osborne makes history as first living Nebraska Hall of Fame inductee",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQWNKZy1wM3UwajJYVE5najBHQVhfVlZqazZOUERpSjNlN08tZkc2alowNkpPX0hhMDV6UHlMOGJnSVJDcHo2MlQxN3F4WGxmOElBdkVtakt0YUFZMWZnUDg1cEYtNnBiYmJvWUpaNnJvWGFXUzVvdE0wRXJvZl9wT0llako4OXdvbGFHdmp0RjVpVE5YZlBRaGZBS2s0dw?oc=5",
+      "title": "One dies in North Omaha crash",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ReldiZ1l5UnRINXJGUjQ3Nk5XR1BQUU1pcjNMakRvWmxfYm44bzFiX0d2WURobjUzYk9zNWVZVGMzVzZuN1FpQk5PeDZRZnNzSTNmTU9lV0JXZnl0Qmh4cTNkR3NXbXlCamU0UHl5c3NDYy11ZWh3?oc=5",
       "summary": ""
     },
     {
@@ -538,13 +538,13 @@
       "summary": ""
     },
     {
-      "id": "gn-238712f1a69f",
+      "id": "gn-4870d205fcf7",
       "type": "news",
       "source": "Lincoln Journal Star",
       "domain": "journalstar.com",
       "date": "2026-09-17",
-      "title": "AppleJack Festival returns to Nebraska City",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZHFEMnE0b1Flb3N1ZmluTktPa2MtTHhrdURFbTBBa1Brc2pfSTN3YU1aN1hsV2pzQksydndQd0x6LVNZWFdoZWJuaHNSc0ZjcGx0dUNHSmxnZ0RGUlFxa0ozUWtrTHBGcWJjZ1RwanJHRktua2tHUkdnQUlEQVVNUEhrUmNfOHJtMmhnTjV0N0FYMXFsWEF6MURwM2xaT3c?oc=5",
+      "title": "Lincoln becomes 10th US city to earn prestigious sustainability certification",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT0stcVhKTnFlMl9KMXhOQml3Sk9MWGxsMmJKY2dfdnhOM1FFY3F4d3FnZ3ZETU5TYURfeTBhdmNyZ2J4Tm9xT3RadWpUSFJYWEE1YTZMTmpNTV82SUE0anh6UEpiYWR6b3pJcFRmSl9FOUxVZnFJOEhZZ0ZXaGx2VWxGdldXWWJfTVJHMkRabTlJQlpxUUxEZk5DZVZUdXpKcWhGQzNUYw?oc=5",
       "summary": ""
     },
     {
@@ -708,6 +708,16 @@
       "summary": ""
     },
     {
+      "id": "gn-ea9ceb6efef6",
+      "type": "news",
+      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+      "domain": "1011now.com",
+      "date": "2026-09-16",
+      "title": "Summer heat and humidity Wednesday",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBXZjJrVlpiTVJOeF9sN25QVDB2R3k4b1pqek13anctTTRJaWwzblM3OFNEVTAtS1NvcHV6c0pOTjZRQXBHOGNDN0hxa1dmOFM2VW5YYUs3NzhUV09DenpoRlBmVUVUcUw1by1YWm9sM1pCczJHaUh4TGNCT28?oc=5",
+      "summary": ""
+    },
+    {
       "id": "gn-221499acffea",
       "type": "news",
       "source": "Lincoln Journal Star",
@@ -765,16 +775,6 @@
       "date": "2026-09-15",
       "title": "University of Nebraska–Lincoln launches Nebraska Digital Ag Hub",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQW1UTUZ6UXpOWGJHVjk4Ti0yYWJULXNWaDJHUmlNcnZ3UG04ZUoxNVl3eUxRZmVoQmdFRkxfUEV3OXVUc2VhZzdnbzdsQmtQN051b3Bfb09OcWxxd2Q5TGJBaFdOT1k4Q3JtMFM0UUZ2Q2hLc3J5b21Ta2Y4OEc5dU5QOG4tNzZMRWpLSFhzdVQ2UkVCcFhV?oc=5",
-      "summary": ""
-    },
-    {
-      "id": "gn-cf735c131844",
-      "type": "official",
-      "source": "UNL Police",
-      "domain": "police.unl.edu",
-      "date": "2026-09-15",
-      "title": "- UNL Police",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rcFpVcWV4X09zS0VKZEZ3NTZtZVRaZ1JUU0NEb0VXSkthMlBteUNCZ0Z2Q1NqV3pfSTQ0dHJXdUxsdTQxOW5CdW1CZGQtMk5MMGhEcXpoU0JCNTI2dU04TjcyLTE?oc=5",
       "summary": ""
     },
     {
@@ -868,16 +868,6 @@
       "summary": ""
     },
     {
-      "id": "gn-82ff5812bb92",
-      "type": "news",
-      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-      "domain": "1011now.com",
-      "date": "2026-09-15",
-      "title": "Lafayette police investigating shooting on Surrey Street",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMTlKLU1fMFVrZXlBLTQ3QmtZS0U5TUZXZC1wWGo3a0lYT3ZULVZYM1p1UkhsRllOWTJsaWpWa3F2TlFodzQyYkhOMHE2OW9JbE9ZVEpDX19ROHR3T3Ntam5NdmFjMmJuRG40YW9KZEozNzUzY3FVSE8zSkRoeDZSdWhkNjBzM1h4TVZaRVBSYTRodkhSd280b2Z3NA?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-3be9c7b789fa",
       "type": "news",
       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
@@ -898,13 +888,13 @@
       "summary": ""
     },
     {
-      "id": "gn-b3631eead6cf",
+      "id": "gn-061b1fba0e24",
       "type": "news",
       "source": "Lincoln Journal Star",
       "domain": "journalstar.com",
       "date": "2026-09-15",
-      "title": "Two people charged with circulator fraud in Auburn recall effort",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcmxMOHdUYmtRX0Zic3BtemdCM0ptZjlCUzFrRlJFQ2lkZlRaSkZqWFFraUc3Rk15UGg2OTVsNlV2QXJtZ25HdTNjR19NT3Q3WE96OUszUzBfREtXTkg0WGRLZTBPcHdnSVNCdnlLTUxUUDBzNWRrNHFJRk5pY3ZrQWVjSnRjRUVnTVRmODU1X0lwMWJGRFhqNmhRaDlHQzFrSlUwa3BNV1RyLVNsYWRySGxnUQ?oc=5",
+      "title": "Nebraska auditor finds 14 concerns in Lancaster County offices",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORHduX1VUY2NvTFNzMHF6VUpKSS1JcGt6U0NTNUpTbGxoUWhVNnA1MUhSeTNyTVRnbGtoLWs4cFNkVnVfenNJVjlpcUFCUHZVdlFyM2FWY0JYdVVuUi1ScWl4RDctSkNwT01NVXozcnhsejE0TWJGc056MWJoUmJKOVpXUHhxaTdGbUEyQndieFg1Tk10Rkl5cC0yS2ZWOVpJb2hWMUt2aw?oc=5",
       "summary": ""
     },
     {
@@ -915,6 +905,16 @@
       "date": "2026-09-15",
       "title": "Jury finds Lincoln man guilty of sexual assault of two young girls",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZGppWjRwSWl4MDA2UElEeTR5WVRxcWwwMG5UTDM0aWJCRU1QMU1aOTNiRlgtN29NdE41aUpnRnVqZXNyME9oWnZVTUVnLXdqd1BBXzBCS2lRV0ZSNDZwX29GWUZTT2FKSk9oVnhycnhCRDl2d0dldy1Ibld3YXR2MjdiaktyTHpVWXo0ZGZlcXl0OVBTQ1c2NnRoOWdKZw?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-b3631eead6cf",
+      "type": "news",
+      "source": "Lincoln Journal Star",
+      "domain": "journalstar.com",
+      "date": "2026-09-15",
+      "title": "Two people charged with circulator fraud in Auburn recall effort",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcmxMOHdUYmtRX0Zic3BtemdCM0ptZjlCUzFrRlJFQ2lkZlRaSkZqWFFraUc3Rk15UGg2OTVsNlV2QXJtZ25HdTNjR19NT3Q3WE96OUszUzBfREtXTkg0WGRLZTBPcHdnSVNCdnlLTUxUUDBzNWRrNHFJRk5pY3ZrQWVjSnRjRUVnTVRmODU1X0lwMWJGRFhqNmhRaDlHQzFrSlUwa3BNV1RyLVNsYWRySGxnUQ?oc=5",
       "summary": ""
     },
     {
@@ -1028,16 +1028,6 @@
       "summary": ""
     },
     {
-      "id": "gn-41a0eb32d0cd",
-      "type": "news",
-      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-      "domain": "1011now.com",
-      "date": "2026-09-14",
-      "title": "Man found dead in restaurant kitchen vent, Atlanta police say",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYmU1UUo2WkFHVjBfRENWalVDUGVyVDRnaF84OE15U0V5WXN6UDJDX0tTcUNZc01wWno5Q1R0M0NZZDIyTGFzSzkxNk8zeXJZZ19vME5oT000Tkh0RDlWRTRfbW9VRjdmWGlBX2tuS1NWMmVHcGd1NU1Tc1ptSElLQzAwN0Q0WE95ZGljRWdjek1vSGwyejNvSExKelVILWh0?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-e0d9d8207d02",
       "type": "news",
       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
@@ -1045,16 +1035,6 @@
       "date": "2026-09-14",
       "title": "Southern University says campus power fully restored; normal operations resume Monday",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTUYweHZiSnc0NTNRczB5SEpPUm1KcFVuQXpOYktFZG9naHA0dWNIQ0tiVTg1QVpzTWRiSk80My1hRV9YODlud2M4U0hzRENyU0lfOHZ4bFFkNk1QRk9WdktnYmNLWnRueVJYLWVEb1FTQjJmYjRLbElOTEdONmd2Y1lGWHJGUzg4YllZZkt4VU1QNExCUFB6N3VxR0JyUzFQTU4wQ3c3NFJLSkxRSGotUklMZmNiYUVNbTBhLXMzNm9RREpp?oc=5",
-      "summary": ""
-    },
-    {
-      "id": "gn-8357bdc42c96",
-      "type": "news",
-      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-      "domain": "1011now.com",
-      "date": "2026-09-14",
-      "title": "Police investigating after dog found dead in locked car",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQWo2QlRLZkFsYW9sX3Y0ay12WGZEMFVwZVJlcVJJaUQxWFVuZlFLV2kyR0lWN1ZBVEZycEs1ZzBpUHlUWDZGV3FpMS1JQUl3WEFOM1RDbzFyS255ZWZ2dzRGb3RxNDBqRjlVdC1ZYjZjOVFaT0FWZGdaeE5HVDZCT2N1aURCT2FKaHNISXdsSUJPZ9IBpgFBVV95cUxPci1NczRhVHhZSV9ncVVGZi1reG92LWQtd3pJaGJDbl81SE82MkItSm1qLWxNdFBpQW5USWk1a2FiaWEyVklyeHc1eUNBbDhCRnlJMlpWeWhLYUt2VlIzRFNkY3l5SmVvNnZXcVBwX1JpcEpxQ24waDN3dno3djZWdERocGo0VVQxMHNYcFBRWHR4RXpKNWpBNUFVX1doLVVQS0g1ZnZn?oc=5",
       "summary": ""
     },
     {
@@ -1978,16 +1958,6 @@
       "summary": ""
     },
     {
-      "id": "gn-b52a17be7fc4",
-      "type": "news",
-      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
-      "domain": "1011now.com",
-      "date": "2026-08-17",
-      "title": "Police K-9 found dead in handler’s car",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xSGFmSmRadXN0N0dXTEM3c2ZROEVmcnFSYlBXcHV6R3dzNlFDbVBNOUpENmpGcnE5LWpNYUl6Z0hobTNzZG8xX1R5dUVQNjJISGhRcXp4aFpFZTBYRjNoQWJjSzBpbTIzTmpfRnNuY2JoT0RXNGxQX1RB0gGOAUFVX3lxTE1KUVR3ZlpUUml2cUdSbXFrLXN0cU1fMUVxUDQ5S3ZaaVB6RHhzVktzSXA5SGJIV1diMENvYWZSSUdpb2hxdVk5WEdUSTlacDBQbjJmOXRvU196MjVwYVpCVmxRVmZsS0FlV2tTTkloaV9xOXpfQjFxdklpbmlEMVJSWlFZeHlwcnJrMThYTWc?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-5be6bb4f62a7",
       "type": "news",
       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
@@ -2045,6 +2015,16 @@
       "date": "2026-08-13",
       "title": "Woman loses $1,600 to caller posing as Lincoln police lieutenant",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMWZ0RHgxcUwyZ0xuSk1tSnRHYXdieGJUSG16WjY4UURIVmMtMVFheVBULVFISHNPZW1yVm9QQWcxTC16cWM2a1otVEZYUjFBWUN1U3VyY1JFbEwwU29NTlhQMG1HMWtIVkdQc1lmTWFoZ1BTSFlUUHUwbDktdUhjek5qVW9DUmVZbjhmVnJBX1lmLTI0QnY40gGrAUFVX3lxTE4tWjFjbDhrOTNjUXFwWjFuRUstd2w3czZRYmI5QV8wcU9lYW1kYi00VDBzeERxWVl6LTBhdHVoaDluU1czNHNqTDNZWnkxYmE5cVItbFN3dXRpTnBtY3g5cFhiUnhsRTZOdTdHMlB5OElvcHhlVkZJZGpPeVctVmFuTnRyVnMzXzk2SmNWWXctRlpnNWctbnBULVRyZzRTeGRlOWxxUUJOWEVScw?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-bb57c3c05b47",
+      "type": "news",
+      "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+      "domain": "1011now.com",
+      "date": "2026-08-13",
+      "title": "Nebraska group puts campaign to establish minimum staffing level of police in Lincoln on hold",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVXpTNmFjMl8xV21jaDlPRHdIYkhYa3JFM3ZDSVBpWVVHMEp6R2txdTlyY2doRXViV0FoUGxMVXVPQ2RCbS13ZlRQZTRtY1FRVzl4UjdKTU9NQ19hb1k2amhxQ1NUWHZxaUFIbVFydXR4SWt0ZTAzclJwVmJsbUhHLVNUTTdhdFV0MFdQMFBRWGRZSU41VFBUS2NnblBfWEppYjMtVjEwaGhMYklnTmNsa3VpeWVCWTNw0gHMAUFVX3lxTE9hckFiZWlVOVBtUTZWMzhkLWljejZiNkw0UnZYMHpBMElkUGhZRGhHcWNVZVVKRFRMUG9aMG8yTUdlMDNaM0ZQbXFtRXFubDZUc0VBdHpIS1RKbmZjYU5qUEZrVFNQaGtlV3BFS2VkaVAyT3dKY3BUWklZTElidXVwSmhGa2dOaU1aVjk1Qi16RVFhaUFiY2QyZWJ1MXJiazcwSFN6M2hJbVJsZXV4OWNodFNIT1pkb0Zkb2hVYW5acW1qdGgxdl9iMUVuUw?oc=5",
       "summary": ""
     },
     {

@@ -1,7 +1,44 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-18T20:56:35+00:00",
+  "scrapedAt": "2026-09-19T04:41:15+00:00",
   "rows": [
+    {
+      "case": "26002649",
+      "dates": [
+        "09/18/2026",
+        "09/18/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002649 Incident Code: DISTURBANCE - OTHER Reported Date: 09/18/2026 20:46 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/18/2026 20:46 Location: 880 N 17th St (UNL RESIDENCE HALL) Glossary"
+    },
+    {
+      "case": "26002645",
+      "dates": [
+        "09/18/2026",
+        "08/24/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002645 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/18/2026 16:53 Disposition: Open Occurred Date: 08/24/2026 19:35 Location: 1111 N 14th St (GOV'T PARKING GARAGE (UNL)) Case Number:"
+    },
+    {
+      "case": "26002642",
+      "dates": [
+        "09/18/2026",
+        "09/16/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002642 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRETENSE/OTHER Reported Date: 09/18/2026 14:23 Disposition: Closed - Inactive Occurred Date: 09/16/2026 11:17 Location: 300 N 17th St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
+      "case": "26002640",
+      "dates": [
+        "09/17/2026",
+        "08/10/2026",
+        "09/16/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002640 Incident Code: BURGLARY Reported Date: 09/17/2026 10:30 Disposition: Open Occurred Date: 08/10/2026 08:00 — 09/16/2026 08:00 Location: 1210 Vine St (SPORT FACILITIES) Case Number:"
+    },
     {
       "case": "26002636",
       "dates": [
@@ -10,7 +47,7 @@
         "09/18/2026"
       ],
       "disposition": "closed",
-      "raw": "26002636 Incident Code: ALCOHOL - DWI Reported Date: 09/18/2026 02:12 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/18/2026 02:12 Location: N 9TH ST & H ST (STREET) Case Number: OS26018 Incident Code: SEX OFFENSE - MOLEST/FONDLING Reported Date: 09/18/2026 12:4"
+      "raw": "26002636 Incident Code: ALCOHOL - DWI Reported Date: 09/18/2026 02:12 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/18/2026 02:12 Location: N 9TH ST & H ST (STREET) Case Number: OS26018 Incident Code: SEX OFFENSE - MOLEST/FONDLING Reported Date: 09/18/2026 12:42 Disposition: NA - Clery Report Only Occurred Date: Unknown Location: On-Campus Student Housing Case Number:"
     },
     {
       "case": "26002630",

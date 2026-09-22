@@ -1,0 +1,4 @@
+# Optional: only needed for the AI web check (scripts/check_rumor.py's ai_verify()).
+# Heuristic matching works without it. Vercel installs this automatically for
+# api/check.py; locally, `pip install anthropic` if you want the AI check too.
+anthropic

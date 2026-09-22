@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/check.py": {
+      "includeFiles": "{data/**,scripts/**}",
+      "maxDuration": 60
+    },
+    "api/refresh.py": {
+      "maxDuration": 10
+    }
+  },
+  "headers": [
+    {
+      "source": "/data/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
+    }
+  ]
+}

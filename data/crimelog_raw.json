@@ -1,7 +1,17 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-22T11:42:12+00:00",
+  "scrapedAt": "2026-09-22T16:59:39+00:00",
   "rows": [
+    {
+      "case": "26002712",
+      "dates": [
+        "09/19/2026",
+        "09/19/2026",
+        "09/19/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002712 Incident Code: DISTURBANCE - OTHER Reported Date: 09/19/2026 21:13 Disposition: Open Occurred Date: 09/19/2026 18:15 — 09/19/2026 21:13 Location: 1100 T St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
     {
       "case": "26002705",
       "dates": [

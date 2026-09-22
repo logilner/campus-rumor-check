@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-22T04:59:57+00:00",
+  "scrapedAt": "2026-09-22T11:42:12+00:00",
   "rows": [
+    {
+      "case": "26002705",
+      "dates": [
+        "09/21/2026",
+        "09/21/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002705 Incident Code: LITTERING Reported Date: 09/21/2026 21:12 Disposition: Open Occurred Date: 09/21/2026 21:01 Location: 625 Stadium Dr (GOV'T PARKING GARAGE (UNL)) Glossary"
+    },
     {
       "case": "26002704",
       "dates": [
@@ -10,7 +19,7 @@
         "09/21/2026"
       ],
       "disposition": "closed",
-      "raw": "26002704 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/21/2026 20:16 Disposition: Closed - Non-Criminal Case Occurred Date: 09/21/2026 11:00 — 09/21/2026 16:15 Location: 300 N 17th St (GOV'T PARKING GARAGE (UNL)) Glossary"
+      "raw": "26002704 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/21/2026 20:16 Disposition: Closed - Non-Criminal Case Occurred Date: 09/21/2026 11:00 — 09/21/2026 16:15 Location: 300 N 17th St (GOV'T PARKING GARAGE (UNL)) Case Number:"
     },
     {
       "case": "26002702",

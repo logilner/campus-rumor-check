@@ -1,12 +1,22 @@
 {
   "_note": "Cache of recent items from verified sources, written by scripts/fetch_sources.py. 'type' is 'official' or 'news'. The rumor check matches claims against these items. Seeded with a few known items so matching works before the first fetch.",
-  "fetchedAt": "2026-09-21T21:59:38+00:00",
+  "fetchedAt": "2026-09-22T04:59:21+00:00",
   "activeIncidentPage": {
     "url": "https://emergency.unl.edu/",
-    "checkedAt": "2026-09-21T21:59:38+00:00",
+    "checkedAt": "2026-09-22T04:59:22+00:00",
     "text": "oln Apply University of Nebraska–Lincoln Give University of Nebraska–Lincoln Nebraska Emergency Information Home Campus Incident Updates Campus Incident Updates will be posted here. There are no current incidents. Report an Emergency Call or text 911 immediately. This is the official information website for the University of Nebraska-Lincoln in the event of an emergency on our campuses. When a UNL Alert is issued the university may refer members of the campus, the public, and media to this website for the most up-to-date information and guidance during an ongoing active emergency event. When t"
   },
   "items": [
+    {
+      "id": "gn-c90f6ae64bc6",
+      "type": "news",
+      "source": "1011now.com",
+      "domain": "1011now.com",
+      "date": "2026-09-22",
+      "title": "Western Illinois University unveils new Emergency Operations Center",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWGFvcnBIZDIwbWhOR0hHQ3pRR25lSDVYcUhfMVVidVJDaURQdEtfUS1pWW1DVXZqLU9IQ2dJb0I4NUlDN2dzMTRmX3pEY1V0b3NxYmdyeVBEc0pSWlA4T1BpMXdlWU1KdllFaV9UT0IzNTRPSE54NjRLY1M4aG9hbDlyRnh0M1k2N3BQNlZhM1lRbnNlLU1fNDJ4RXptRlNZcjBHZVYtTVllbWtkRHc?oc=5",
+      "summary": ""
+    },
     {
       "id": "gn-09c9960353d9",
       "type": "official",
@@ -48,13 +58,43 @@
       "summary": ""
     },
     {
-      "id": "gn-cb55ccbf43a1",
+      "id": "gn-ce796f1b783d",
+      "type": "official",
+      "source": "UNL Police",
+      "domain": "police.unl.edu",
+      "date": "2026-09-21",
+      "title": "- UNL Police",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82SGdJWDdHRUxVQmZmNTRDRS1ReHpId01yZzZfMFVuSXJ5RVpNRVE0VXg0RXlwN3hpc0Y1UFVEcDlnN19PZFI1emNWTnFNSzhQbVZfNzBDVm5qdnBWUHZWdmIxR20?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-5c3e7d18ff89",
       "type": "news",
       "source": "1011now.com",
       "domain": "1011now.com",
       "date": "2026-09-21",
-      "title": "Rare coins, gold jewelry among items in Nebraska unclaimed property auction",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTUlHRFJiWnFWWWE3SlBsME10bjdjTWtDVk4wU2czQ3IzQ0FOZldDSVpwYzlpSDl6bmNrRGNBbFI2TGlIbndCc1JLTG12Y0tCXzNIT1FQa1hZcDlPVTM3QVFJcmRxR2d2M3NYM2xmbG5OUS1HR0pkNExpR2ExMU1vVF81aUUwbE92ekZjZnllRWVHdG5TMm9OUnhrc0lUMEJseTF3dEEyYktraEnSAb8BQVVfeXFMUGRORlNyWWh4Y28zckowUlFtMXhNN05nMW1qODllTnlVMmp2LWxoMnZtTmU2TEFMZmlxemlJS0l1TUs0STVrNXhqaDg3WTl2eVNJRzlIaTgtcmU3QVQzWFA3RlpTcldQMWt0SHNIZWVVLThtaG9GY0Y3bndvNFVpaFdrd3pkNndOeTAwaUxlREdUQ3NzbWRndWNLM1RMOGZJb1N1MW9jODhWOEVwdk5QTVVVM2otU3hFLUtXVEJhWmM?oc=5",
+      "title": "Photos: Person pulled to safety after Jeep crashes down North Carolina waterfall",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY3RoTDZ4eV9jbnA2UDBsUFdRY0hsR0o1V0RVc0xKZUZuNERvUGFoZC1PYXZpY3V0NXcyaHBwd3kxSWZkdGZjemVFTHZBZTZGNnpWelRpel9PdHRPbWpKVnNJTjNrLWNWay1nTW1fYnlEbUZmbHdOUmhZdy1lYjhRMGg5Sl9BV3psWXFaa3o0RDh1VDRjdG4wT3ZVUlljdC1zaDU4Q0VPU1VLRkljaldoUWVQTDVlX0JXQmc?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-e9f709286ca3",
+      "type": "news",
+      "source": "1011now.com",
+      "domain": "1011now.com",
+      "date": "2026-09-21",
+      "title": "Lincoln man accused of assaulting officer after Nebraska football game",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZFZidVdUNk5JMkwyNW5ENW4zWXVTNVhfZWw5UUl4LVllVmpIeWU5cXh1MkoxZlN4VHN0N1pRRGt3ckJTUGZaZUEzNnRnd3BkS3NXZjQzZ3RIdC1wem1oM2ViUzd5X3RtUjZHVzlGWHRuYlpPMm5EVkdaWGExaTlvNGhfRW1NZ0dzdVViWXN5Mjl2TGVkZU1NS0cwZ0xYVmFCZlJlQi1R0gG6AUFVX3lxTFBPUlJfcm11YzFqaUFISXl3bS1CYVhmUHBYa3Q0cW1HLWUzU1VDM0s5bW1LVFpOSlUtREdfSGpZWHpjRGJoOUNEVXlZQnlMUzZVbUR5aWdybnZ5NmtzVkEwVnRpZFJwNVd0RWN0UEZKM1o2a3RwOC0xLUhUUFg3eUtmVzdYYVVrUXVBNjVCdnNhMkowZHVxYXJPUkNkbXFCZWJFUk9QQjFhNnd0TGlvd202WUVzdHlFY3gwUQ?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-eba40abc57df",
+      "type": "news",
+      "source": "1011now.com",
+      "domain": "1011now.com",
+      "date": "2026-09-21",
+      "title": "UNL’s bid to rejoin American Association of Universities faces pushback",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQS1OVk9INzhlTnJ6VW9WTlBzNzFSdVJ1Nm4yU2tueWVpbVNNTkkxX0dreUZlR0tERXVtTjFPVWxmN09XWkxqcDVSN2NlN3BWaVJEbHpsOVNjanliTi1xRWYyZ1hxMDNmRDZoX0tzSFgzZnFGTmlzQ0VCTEswa2lRQXk4WGszT0c2bzZxaEFNTzdNb1FSUl8tZ3ZpUVl6dEF6dmc?oc=5",
       "summary": ""
     },
     {
@@ -98,6 +138,16 @@
       "summary": ""
     },
     {
+      "id": "gn-2e1217ffaa47",
+      "type": "news",
+      "source": "1011now.com",
+      "domain": "1011now.com",
+      "date": "2026-09-21",
+      "title": "American Association of University Professors urge denial of UNL readmission to American Association of Universities over mass firings",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQzVNcnpwa1FpcU5adWVxTVptUFdvV1dOcl9OUUxCVmIzSFhZTENmOWswcFhvUUI5SXFsVk5yczVfQ2VRaWNEcEFRZnBzUmRFOXVHQUhGanhDYkFEVEswSXJvalF0RXVZWVpBN3NWWnRoR0pkQzN0ZkpqVkNZbmdmMGtxOVBRSmNrSTV3dGQySzREdmp3T1l1SlJsRGJKc1RDMjcxWG5GcTZ0WXg0aGVRU1VCUkRoLXJ4UUNzUUNnVzFhYjJxSjVZY0hQaDl5U3NKVjl2MFpYSlJSVkJ1M2ttY1dybl9OVDdWT3dvNm8zVQ?oc=5",
+      "summary": ""
+    },
+    {
       "id": "gn-d5619aae6d4d",
       "type": "news",
       "source": "1011now.com",
@@ -118,16 +168,6 @@
       "summary": ""
     },
     {
-      "id": "gn-e9f709286ca3",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-09-21",
-      "title": "Lincoln man accused of assaulting officer after Nebraska football game",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZFZidVdUNk5JMkwyNW5ENW4zWXVTNVhfZWw5UUl4LVllVmpIeWU5cXh1MkoxZlN4VHN0N1pRRGt3ckJTUGZaZUEzNnRnd3BkS3NXZjQzZ3RIdC1wem1oM2ViUzd5X3RtUjZHVzlGWHRuYlpPMm5EVkdaWGExaTlvNGhfRW1NZ0dzdVViWXN5Mjl2TGVkZU1NS0cwZ0xYVmFCZlJlQi1R0gG6AUFVX3lxTFBPUlJfcm11YzFqaUFISXl3bS1CYVhmUHBYa3Q0cW1HLWUzU1VDM0s5bW1LVFpOSlUtREdfSGpZWHpjRGJoOUNEVXlZQnlMUzZVbUR5aWdybnZ5NmtzVkEwVnRpZFJwNVd0RWN0UEZKM1o2a3RwOC0xLUhUUFg3eUtmVzdYYVVrUXVBNjVCdnNhMkowZHVxYXJPUkNkbXFCZWJFUk9QQjFhNnd0TGlvd202WUVzdHlFY3gwUQ?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-6882bdfa687f",
       "type": "news",
       "source": "Lincoln Journal Star",
@@ -138,23 +178,13 @@
       "summary": ""
     },
     {
-      "id": "gn-baedb5a24ada",
-      "type": "official",
-      "source": "UNL Police",
-      "domain": "police.unl.edu",
-      "date": "2026-09-20",
-      "title": "- UNL Police",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIUmltcXhpSWF0d1ZIQ09ZSGRqcHh5cWhkSENSTElZYzYzRXJmLXctbnFGX1FSQXpCcFNfY2JGc2pyMDMwejVvN1pyUTBhbjdsSjhVNE42Vmg2QVdQWlE1cHhn?oc=5",
-      "summary": ""
-    },
-    {
-      "id": "gn-ce796f1b783d",
-      "type": "official",
-      "source": "UNL Police",
-      "domain": "police.unl.edu",
-      "date": "2026-09-20",
-      "title": "- UNL Police",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82SGdJWDdHRUxVQmZmNTRDRS1ReHpId01yZzZfMFVuSXJ5RVpNRVE0VXg0RXlwN3hpc0Y1UFVEcDlnN19PZFI1emNWTnFNSzhQbVZfNzBDVm5qdnBWUHZWdmIxR20?oc=5",
+      "id": "gn-c9acd9efbc32",
+      "type": "news",
+      "source": "Lincoln Journal Star",
+      "domain": "journalstar.com",
+      "date": "2026-09-21",
+      "title": "Union censures Lincoln Fire Chief Engler; city backs his leadership",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa1FhU1FvWFE5WGFnLXhZSl9mV2xFc1d3ZXBMdnhpRVlHTHRHLVpXNE5meDZGenZlcG5PTndIZ1NTbmhWUGV6LW1aSlRTemV1UGltNDcyTUF1MGxfR3UxR2tHUUI1RkptRm1SUnVXQTItZmJYeFJfYzl2WENIUFJIVVpXZEZiTEdJT1QxdQ?oc=5",
       "summary": ""
     },
     {
@@ -198,6 +228,16 @@
       "summary": ""
     },
     {
+      "id": "gn-23faf4d22425",
+      "type": "news",
+      "source": "1011now.com",
+      "domain": "1011now.com",
+      "date": "2026-09-20",
+      "title": "College football player stabbed to death, teammate injured in fight outside nightclub",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVjdpZ3ViRjZOY0lLSjVmU0NSVTFvTGRqWlRYbXZaX3BLMHM5RUd4N1dfbjRkNVFwaHFsbW9KcFF5RFllVnVzeFRGSk91cl9XcVUxRGxuY01iUkZaRFpTWmplNUhRSnFzdjA0eE44bTNVcS1kNDZOb0xKZG9RaVpjQTNnVC1tc05EMnBIVW45a2tJbTlaaVVpcmIyTHRyQnJYOVhFU053VmdSZF94UENPY1A2cFbSAcgBQVVfeXFMUDdSTjNLdGZqb1dMbXZEU19xb0JTSWswTnVKZjEtWFowTW9QMnJqanhLNGdTc29VYWNuc3E1bkVCZlFENTRsbzdqWk5NdE5YbWVURFlBUDZGeF9Lak1XY1ZXaGVpYnNxZW1pNWgxdHpCMllSZXVDVFpUa0JvNEpnaGdKOWtpeVUtVVRfczVNcDdUNTB4dHRCZW5ITG0tNUdBMk1sOWZVWFpBVUJHZnNkaEZFRlpINEZVZTlYc3d3QmVRYko3WWRocDU?oc=5",
+      "summary": ""
+    },
+    {
       "id": "gn-d1a6b293d258",
       "type": "news",
       "source": "1011now.com",
@@ -225,16 +265,6 @@
       "date": "2026-09-20",
       "title": "Records raise more questions about influence of Pillen’s hand-picked no-bid contractor",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYlZ1a2Y2dWJRX0s0dHpLU0hZM0p6cWpLQlRjN3VGYlcyMkhHblROWkY1aE9rMm5pTDdPclBfanJpUjljR21memRpWEpFU0lvWlBfT01ma2RGS3I2cnZhNFlweDZ0VG14V09SLUxsSThwRWYyVFFTZ19YUTlfSEpDNG5NQnFFVzJEUldweTZtUjJXWEw0SWVZeWZxRTI3ZFpySmFra3g2bURHcWx3emF1Mno0cw?oc=5",
-      "summary": ""
-    },
-    {
-      "id": "gn-e1ba8b3e5fa2",
-      "type": "news",
-      "source": "Lincoln Journal Star",
-      "domain": "journalstar.com",
-      "date": "2026-09-20",
-      "title": "Tom's takes: Colandrea’s quiet brilliance, Rule’s big runs and a special teams mystery",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSk1ad0owbnU4SWNhUDZtZ1I5dlFtN0tqcEdEYjZTalF3UzJYdGIwOWVNSFVoT2M3VjZKVWU0dUFDYWtzS2pPekYtRlVqU2RmVlpwb3NWb1g3U1pvUTQtRFhzY0VWZTdnYjJvM0RvZHhJMk1JT2JmazhkbEtqNWpqZXZDQURhZlVIUmdRNjNqQnFkOHNIUlJaYVZXQ29YUQ?oc=5",
       "summary": ""
     },
     {
@@ -528,16 +558,6 @@
       "summary": ""
     },
     {
-      "id": "gn-3ec242986269",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-09-18",
-      "title": "How Lancaster County uses automated license plate readers",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcUVpV3BSTEdnQnRGYXN6cWNlXzVZc2lwdWNucVdUUUc4VXpSX1B2R3h3U29kZHpjVkNLcmg1eElxQVBtLWlJVVE5Z2ZtODBtMFl1WmwxVDk5Yk5QX0xPakh0Qk1MOVRUT2xUX3dmZXQ0eHJvS0VFSDRyNXRXT3B0ZHdWMTRudUd1bFZ4ekdvYmxlcEJPbjJ5Uw?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-6fbf18761565",
       "type": "news",
       "source": "1011now.com",
@@ -585,16 +605,6 @@
       "date": "2026-09-18",
       "title": "WATCH: Video shows SUV crash into south Lincoln convenience store",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNakc3X3FYMnd4MVJDMndoVFpKcWVxdVpkdk5OSnVBaWowbktrMjRoR0drZENVc2lLWmdYS1QtUGdsVGg5RVJDZXhWOWtVWVdpWC1mZzBtZzM5Z3FlcXZEc25yVXB0T1Y1NEFnZkU2d0VPWl96cklhV2Fmb2dPWGJhZzBTb24wOVlUam5CZQ?oc=5",
-      "summary": ""
-    },
-    {
-      "id": "gn-ddd1174e3a97",
-      "type": "news",
-      "source": "Lincoln Journal Star",
-      "domain": "journalstar.com",
-      "date": "2026-09-18",
-      "title": "Just: Write off North Dakota at your own risk. Nebraska won't — especially its FCS transfers",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVXhSbGdHWktBcTFFeEJZZjJHZDVsaVEyODREN2YteEJCUS1pT2MybHNCOHhfNFAzdjR1UzV5SFF1dEFkRmtCTVE5amJMcTYwcjRac084clRjLTd1N1VFam1INDIwdkpwck1DdUFPVkJIRFp4R1RlNUlqZ29iTmFjTGFLXzRZWFYwSW54TVo2UTkzSGRrT2VwZVNOazBtQQ?oc=5",
       "summary": ""
     },
     {
@@ -718,26 +728,6 @@
       "summary": ""
     },
     {
-      "id": "gn-b6fff0ce6581",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-09-17",
-      "title": "Rain, storm chances Thursday",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5RaFJFQXlIUEJiU29aV1BvcllkUWVxZENYV0N1NmRmNjhTR04tQllBREFuVWJXUzAxS3VEX2dUNEI3b1hqeFFYcm55dVJZdVgyRXhEM1h0OUQ0TUN0VGtXRFQtQi1faVZMUzBGYmFEMURoNGNsUlRzYQ?oc=5",
-      "summary": ""
-    },
-    {
-      "id": "gn-e22322a90776",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-09-17",
-      "title": "Man charged after cement truck worth $600k stolen off Memorial Stadium property",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOT2ExdzVEWmhiMFR1eGVQMDNURGhGcWNjb3pEREdFOXJDUzBRdHFVaVN6TnNuV1VrS3pTTjYzc2VSTkgxZldDR2l2NXRIcHRNUEtkZERpWldLcFYxdnl0NHRyQ09YeDJiMnkwUGVLUnpQY05pd25qeGJzUHpGS3dTdHF3NGdkQ0w4MzJjYmVoQWFqQXJBX2VxVHRabG81NnoybFBkd1ZjbVpGbVB5NzVyN1VGZVfSAcgBQVVfeXFMTmducE1Yb2ZiXzA1aW1vZTJUekFvb0Y5YWsyMjBKTTVudFFQdHVIWWlnSjlYRk9lTUtiOVl0Xy1RY2U1c013UVJwVG9sdEYtQWVKLVlTM3NweE02REpCSjRsZ2otVHJWdzR4akhrUVZRc1piQkRYcHlCcWU3UkFlNmk2c0JLUzBMX2duVDBVNUFSRTRHVkdJamVIb091RmdhbERoZWxKbGFBNU1zZENHQXVYTndHQWx1TXVBSzJxWVJxbjZicHpqcTU?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-d07fcb18cbe2",
       "type": "news",
       "source": "1011now.com",
@@ -745,6 +735,16 @@
       "date": "2026-09-17",
       "title": "Michigan State Police adopt mental training techniques from Detroit Lions",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYzM5bjk0cVl3TEhCRlpCeDBvTk5Ud0o5aUxpVWY0d0pxZzJSa1VCWG1HeGFPRXhudEVZMEhONThCZGFNcTczSVhFMExIeTdzRGtWeDk0NTVWTWFvRWowWkRGYTVDd3RRN2pCY3ZpREFyUUE4WjhzOXQwaTRVUW1vVFpVZ2RURnNocUxwWEJmUUxHTVZHSlFBVW85eXBDLUk3WE43M3BUcVlENlEyd25V?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-4e9c55b4c624",
+      "type": "news",
+      "source": "1011now.com",
+      "domain": "1011now.com",
+      "date": "2026-09-17",
+      "title": "Appeals Court reverses judge’s ruling in Hastings crash case",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTZuQmROSUdFS2JtVE5ZdWYycUxKTlZJaEdVVDNiczdDdmNpLTViajhESXNEb3J5MGEzMTZGX3Y3d2YwYjc5a29oWW05dVYtSEdKNjEzdjFGTTlmdUtsa3ZhWWZuWFZ1ZmhGYVZsWTMyUkVJUkVpbTVyUDJNUVZfTzZzMjQwNW44eTB4ZW1jem42MzRMUTlV?oc=5",
       "summary": ""
     },
     {
@@ -878,16 +878,6 @@
       "summary": ""
     },
     {
-      "id": "gn-9525edce2b2e",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-09-16",
-      "title": "LIVE at 9:30AM: Police to give update on killing of 19-year-old Lincoln woman",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMGthNVhWWFFXbk5xMGRITEVUVGhKd1lmdHNxMWFmU05xZ1FaSlV0X1V3dWhyRHlqbDRLQlJRUFM0ZExQaGJDV0wyZU9VRm5xeXhNNmNxcWVTaU9sVWJCeHZfNHlWYWpDNTl3NzhSU1M0bWd4Z1VpTGVBa3lrRHFnQm5Rcl9TMERwdEd6WXRxWWliQlgwVy1lOE9YeHdmaU5s?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-00dd34c889e5",
       "type": "news",
       "source": "1011now.com",
@@ -898,13 +888,13 @@
       "summary": ""
     },
     {
-      "id": "gn-1cab9fb7a309",
+      "id": "gn-4f6dcc411edd",
       "type": "news",
       "source": "1011now.com",
       "domain": "1011now.com",
       "date": "2026-09-16",
-      "title": "Nebraska, Notre Dame schedule home-and-home football series",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXNVdGtidHVQX1d6dWI4a2h4ZnZZZFBaQ3FIWG9SM0dWeURXSWJJdEc5OUJnbWRoMXFSV3lNLWlZV182YmVhbGlwRmgwRkk0X19tbmpHZ2ZzckZ3b1VWUExDdFpMS2tvc3Q1eE51UW5NamF1ZWxiSEhsRW5zQ2JEQ3ZPZHZjeGJvNjNua3I1M1pMaUR0dWVXX3dBaVJhR2ZDdlE?oc=5",
+      "title": "13 people arrested after being caught stealing $250K of chicken from semi-trailer, officials say",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa3dnczVUcEh6a2paR1lHTGZaUnE2RGlXOThpZWRKRFhPMjR0ZlhlSXlqdWRmZXNJNUxTR3JmRlVFMUstV1RfdE5WUDNCSDNwNGRPY3VfdTZZWlpLOXctVUgyeXE4MHBjTEJtWExDZVJJdkpKTWRabnozblFnaUIwUVJNMXRDbGUzcGlEdTZDRTlPOGxYMU43WFJ1QzZ4WThMbW5DVm5aVnRCNkcydGt6RUZNSC00aWZPRU96NWlTQdIB0wFBVV95cUxNaERZWXZIWGR3ZWc3T3o1WXA5SjJCY19FcER3Vy1Zd1pWbHRQbUFnQ1BCQUlQc3VNOXotY29FXzRCeEVnckUyT2UtRFcyZmxtMmpsdHRPZFJtQmMyTmh1cmp4YzIwSHVIZVh0c2xrcy1ubnpRUDlRTWtpeElHaTV3NzI2QmtnTy1HSkI1MFFMU01QOTFMRmpSVlFCNUtRV2NlbF9wZ3gzWnhxVm1hMHFIOHlPVE8wWXJEaWhIQWoxTDNKeTd6dW01am9qWGZWRHNSY1VB?oc=5",
       "summary": ""
     },
     {
@@ -1028,26 +1018,6 @@
       "summary": ""
     },
     {
-      "id": "gn-15da8c37110a",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-09-15",
-      "title": "Man found dead in restaurant kitchen vent, police say",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1BYSnlpRC1rMmhCeFVJX3pzdWNXTnBnUXlfUDdYeHRlNnc2dFpab2tZQ3VILXBHVjItRUJWeGtBVjIxT01GZ0lIS05xTlJVcFNJUHJIcElVbkR3elNuMTVnUUYzd3ZuWDdvcUY0YVBYRWZsX2t0QzZHSlRiT2R2Y29tbHNtYko4Mkl2ZWZR0gGiAUFVX3lxTE5lc0VYM3RLUGJCbEh5SVpOMkYycUh5Z0VJSThoQ3ZFZmNLYmVTLVV4YjA0Y3Z4U3JOWHZyeWZnR2RzMUhtRElkQ2RDckVjWmFvWXlJSXFmWGFfUkhwWkhTcnZaQVlGR3NZRS1aWGdtTmh2UlgtUXRZa21seU9rWXZ2QlpmLTRHSi1tLVYzUTlVUjc5NEJBVFlDeW1uMWZxbEwzQQ?oc=5",
-      "summary": ""
-    },
-    {
-      "id": "gn-0b8cdf68fd70",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-09-15",
-      "title": "Police: Springfield restaurant owner pointed gun during dispute over unpaid bill",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPS2NnNmQzY2cxSzVBUzFTSWg5OXhSS28zdms0SVNLaHZaZlFXZ2pBY2ZwMGRaYjFxcFZZMHNTdmdEVWMtRW0zTms3MnBseGh2ZUdMZjBYbUZvWUJkMTVWUWtncFRWUTZIVUdSdGE0MkpwTWhNUndIS2ExdEZHVmlra2NJQ21yVFdNT2lyQ3dEMXpqUGo1Yi0tYzdKQWQxVC1DamVETjN1SWhmRGR1aE9BOWFONU1EMG1QZGJtUl9B?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-2433211ba6fb",
       "type": "news",
       "source": "1011now.com",
@@ -1126,26 +1096,6 @@
       "title": "Week 3 Nebraska volleyball position grades",
       "url": "https://www.dailynebraskan.com/sports/week-3-nebraska-volleyball-position-grades/article_81a22788-f62f-4557-b21e-ed252297f339.html",
       "summary": "Nebraska volleyball has not waited long to show why it entered the season with high expectations. The Huskers are 7-0 after wins over New Mexico, Baylor and Georgia Tech this week. While Nebraska has faced moments of adversity, especially against…"
-    },
-    {
-      "id": "gn-41a0eb32d0cd",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-09-14",
-      "title": "Man found dead in restaurant kitchen vent, Atlanta police say",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYmU1UUo2WkFHVjBfRENWalVDUGVyVDRnaF84OE15U0V5WXN6UDJDX0tTcUNZc01wWno5Q1R0M0NZZDIyTGFzSzkxNk8zeXJZZ19vME5oT000Tkh0RDlWRTRfbW9VRjdmWGlBX2tuS1NWMmVHcGd1NU1Tc1ptSElLQzAwN0Q0WE95ZGljRWdjek1vSGwyejNvSExKelVILWh0?oc=5",
-      "summary": ""
-    },
-    {
-      "id": "gn-8357bdc42c96",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-09-14",
-      "title": "Police investigating after dog found dead in locked car",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQWo2QlRLZkFsYW9sX3Y0ay12WGZEMFVwZVJlcVJJaUQxWFVuZlFLV2kyR0lWN1ZBVEZycEs1ZzBpUHlUWDZGV3FpMS1JQUl3WEFOM1RDbzFyS255ZWZ2dzRGb3RxNDBqRjlVdC1ZYjZjOVFaT0FWZGdaeE5HVDZCT2N1aURCT2FKaHNISXdsSUJPZ9IBpgFBVV95cUxPci1NczRhVHhZSV9ncVVGZi1reG92LWQtd3pJaGJDbl81SE82MkItSm1qLWxNdFBpQW5USWk1a2FiaWEyVklyeHc1eUNBbDhCRnlJMlpWeWhLYUt2VlIzRFNkY3l5SmVvNnZXcVBwX1JpcEpxQ24waDN3dno3djZWdERocGo0VVQxMHNYcFBRWHR4RXpKNWpBNUFVX1doLVVQS0g1ZnZn?oc=5",
-      "summary": ""
     },
     {
       "id": "gn-43e8b8134db2",
@@ -1888,16 +1838,6 @@
       "summary": ""
     },
     {
-      "id": "gn-cf0023ed6d2f",
-      "type": "news",
-      "source": "1011now.com",
-      "domain": "1011now.com",
-      "date": "2026-08-23",
-      "title": "Police help after Dunkin’ truck breaks down in front of department",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObTdzVlM1a2pYWGFIOERhMGZGUzBDRXVPNlBXakhnaVNBeXpDcWtUdG5WaDZMNVktR2ltVjRTaVBrd2ljM21iMDFnRmR1WUdNU05fY1owV1poUF9LQk93UGNoWFVRNnFmU1BZdnprWmN6S295c1AycjQtenlUVWk2eXJMUU5XRUR2N3cyTW16OG1WNzhtSWhCTkd0UQ?oc=5",
-      "summary": ""
-    },
-    {
       "id": "gn-b110bc567ce9",
       "type": "news",
       "source": "1011now.com",
@@ -1905,6 +1845,16 @@
       "date": "2026-08-21",
       "title": "University of Nebraska surpasses $500 million in private support",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa0FfWkZ3VUk2T0c2MjZJeDBPMDU4M3VtOXdONW1XdkNMZ3F3blZjdmthd01ZTFV5bVMteVlhQkVldkhpRWJfaVFwaVYwRFd6WF9vN0Nyb1Q0LUdSY3hXLUlQUThWR3V4am52U1ZwcmdtOHRiUkRKcnA2Q3dLOWh5c0ZsV3JjMjRPRkVnUkFid2lzTm1mUnhqetIBrAFBVV95cUxNTDNsaGJXRHgzYTZ4bmY4V0luUk5QTzRqbkU3aHJ0MmxqeUpMb2pwOFhsUkowZ3FBay10bEJGTjdFeS15RV9SUEhxbzlfR1I2Q3hfNWgzSVFHeTg0U091RE9lSXM3RmROU1RBSWdhUGtVOHd4WWpzTkZJMmx1ZDZ1WGtrMmpLQU9nc0VuWTg5ZFotdmhDSWhXUm92YWRFWVpjYlFXbEJkbXBhMEtI?oc=5",
+      "summary": ""
+    },
+    {
+      "id": "gn-81ca18d92fc7",
+      "type": "news",
+      "source": "1011now.com",
+      "domain": "1011now.com",
+      "date": "2026-08-21",
+      "title": "Schuyler woman charged after threatening to kill two girls, police say",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNW9YcXVSbkwwamgyRURoYVRjV3ROdjBDUnNTS05aSUpwd0RqY1VNdkRadEhfMUliVVU0WEtVZ0tQTncta1lpdldfMVpRZWJENjRpV2taX2tGcmNrZjhlelZ5Vmdqek1VYUV3V0p4V0xpckdJYUItaFJJbEZZZ2M2Z1NlNlVYNUFCLTU1VkUtX21FNkktR3F2NDJpcWV5V1Z2ZXZFSQ?oc=5",
       "summary": ""
     },
     {
@@ -1968,13 +1918,13 @@
       "summary": ""
     },
     {
-      "id": "gn-2d1e6ce93633",
+      "id": "gn-9a4d0ccbaee7",
       "type": "news",
       "source": "1011now.com",
       "domain": "1011now.com",
       "date": "2026-08-12",
-      "title": "Lincoln man with outstanding warrants dies after fleeing police, sheriff’s office says",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPci1iZzdGM3lxRGJZd3FtZ1FhUkV2WWUyaERSUm8zWTVmcUNXMEhJUDgwcndvb3ltV1djRmtqZVg2S2xmV1dlQ0tDaXRHUjZyd1JFRmM3UGZkWHE0dkxGUFdkNm42VFBTWTVoWk4tN19ublhYMXlWWDUyaDN6OVdhNDRxeUtpN202VU8yVklrQTJTQjRaOGg2WEQyUklfdXQ5Wkd1akRLdllWQi1TdFh5YTRRaHBQcFJvU2dWNdIB0AFBVV95cUxONTcxaTZDdUdqRlBlcFFZLXJMR3Y4a3lZSGlNUGpHYnlQcnFRSVNBS2ROSFZkZGpmRHpsVTNibjlQUjJWNDJtWjlIOXZBakNXTHUtSWI3WjJGVjdzLUR2YUdtdVpzMXBsakhqZDVfOXRUOF84c3JPZ3dtRVhwM3Z4TjREX0ZZMDQ2SkhmRV9OdlNyUS1CUHFyMzZpb0tpYUtLSEVCbG5GVGxjX2wzWkRqcUY5d2pUNjlPZi1vWjZta3h1d0hJdjRuTm1Rbm55bldp?oc=5",
+      "title": "Lincoln police can monitor you through cruiser-mounted Automated License Plate Reader Cameras. What are their rules?",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSHh4d2t0d29vRHlkaDQzY1pJU3oxY0dfUk0zcVJDQ0t2aFVNTl9qcG9RRFFGV0JLaFN1WFZCMTByS3pPUGR6b243OFNGMUlfME81Q1BiY1BfNm9oNEhqRnM5bkZkaW9haE85S1F5YXNWYmRKYmRhbW0zcjFQU0REaGI0d2dUa2hrNTBGTGhzNU5Va1NRNDUyMTlIdGdIM2ZwdkxydHo0Z0daaVlrZElpazdBRzJ6Q3laZ2xpTVk1Q051ZGNhVnhjZ1ZNc0tTSnBPSWJ3TUVLd0dRaHhNVmpfWkVKWUU?oc=5",
       "summary": ""
     },
     {

@@ -1,7 +1,27 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-24T04:54:56+00:00",
+  "scrapedAt": "2026-09-24T11:49:16+00:00",
   "rows": [
+    {
+      "case": "26002735",
+      "dates": [
+        "09/23/2026",
+        "09/23/2026",
+        "09/23/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002735 Incident Code: DISTURBANCE - OTHER Reported Date: 09/23/2026 23:22 Disposition: Open Occurred Date: 09/23/2026 18:33 — 09/23/2026 18:38 Location: 1600 Court St (SPORT FACILITIES) Glossary"
+    },
+    {
+      "case": "26002734",
+      "dates": [
+        "09/23/2026",
+        "09/23/2026",
+        "09/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002734 Incident Code: BURGLARY Reported Date: 09/23/2026 22:54 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/23/2026 22:54 — 09/23/2026 23:02 Location: 1210 Vine St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
     {
       "case": "26002726",
       "dates": [
@@ -10,7 +30,7 @@
         "09/18/2026"
       ],
       "disposition": "open",
-      "raw": "26002726 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/23/2026 16:25 Disposition: Open Occurred Date: 09/10/2026 23:00 — 09/18/2026 00:00 Location: 1830 Vine St (GOV'T PARKING GARAGE (UNL)) Glossary"
+      "raw": "26002726 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/23/2026 16:25 Disposition: Open Occurred Date: 09/10/2026 23:00 — 09/18/2026 00:00 Location: 1830 Vine St (GOV'T PARKING GARAGE (UNL)) Case Number:"
     },
     {
       "case": "26002721",
@@ -159,8 +179,8 @@
         "08/10/2026",
         "09/16/2026"
       ],
-      "disposition": "open",
-      "raw": "26002640 Incident Code: BURGLARY Reported Date: 09/17/2026 10:30 Disposition: Open Occurred Date: 08/10/2026 08:00 — 09/16/2026 08:00 Location: 1210 Vine St (SPORT FACILITIES) Case Number:"
+      "disposition": "closed",
+      "raw": "26002640 Incident Code: BURGLARY Reported Date: 09/17/2026 10:30 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 08/10/2026 08:00 — 09/16/2026 08:00 Location: 1210 Vine St (SPORT FACILITIES) Case Number:"
     },
     {
       "case": "26002636",

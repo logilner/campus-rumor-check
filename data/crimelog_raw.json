@@ -1,7 +1,17 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-23T21:32:18+00:00",
+  "scrapedAt": "2026-09-24T04:54:56+00:00",
   "rows": [
+    {
+      "case": "26002726",
+      "dates": [
+        "09/23/2026",
+        "09/10/2026",
+        "09/18/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002726 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/23/2026 16:25 Disposition: Open Occurred Date: 09/10/2026 23:00 — 09/18/2026 00:00 Location: 1830 Vine St (GOV'T PARKING GARAGE (UNL)) Glossary"
+    },
     {
       "case": "26002721",
       "dates": [
@@ -318,7 +328,7 @@
         "09/14/2026"
       ],
       "disposition": "open",
-      "raw": "26002580 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 09/14/2026 18:42 Disposition: Open Occurred Date: 09/11/2026 13:00 — 09/14/2026 12:00 Location: 402 Stadium Dr (UNL ACADEMIC BUILDING) Case Number:"
+      "raw": "26002580 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 09/14/2026 18:42 Disposition: Closed - Inactive Occurred Date: 09/11/2026 13:00 — 09/14/2026 12:00 Location: 402 Stadium Dr (UNL ACADEMIC BUILDING) Case Number:"
     },
     {
       "case": "26002575",

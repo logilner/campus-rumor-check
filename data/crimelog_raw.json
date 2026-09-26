@@ -1,6 +1,6 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-26T11:28:15+00:00",
+  "scrapedAt": "2026-09-26T16:26:20+00:00",
   "rows": [
     {
       "case": "26002770",
@@ -37,6 +37,16 @@
       ],
       "disposition": "closed",
       "raw": "26002763 Incident Code: DISTURBANCE - OTHER Reported Date: 09/25/2026 17:41 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/25/2026 17:41 Location: 1400 R St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
+      "case": "26002759",
+      "dates": [
+        "09/25/2026",
+        "09/25/2026",
+        "09/25/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002759 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/25/2026 11:28 Disposition: Open Occurred Date: 09/25/2026 09:15 — 09/25/2026 10:45 Location: 4000 East Campus Loop S (GOV'T PARKING LOT (UNL)) Case Number:"
     },
     {
       "case": "26002750",

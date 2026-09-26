@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-25T21:37:16+00:00",
+  "scrapedAt": "2026-09-26T05:01:19+00:00",
   "rows": [
+    {
+      "case": "26002763",
+      "dates": [
+        "09/25/2026",
+        "09/25/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002763 Incident Code: DISTURBANCE - OTHER Reported Date: 09/25/2026 17:41 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/25/2026 17:41 Location: 1400 R St (UNL SUPPORT FACILITY (office, service)) Glossary"
+    },
     {
       "case": "26002750",
       "dates": [

@@ -1,7 +1,34 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-26T05:01:19+00:00",
+  "scrapedAt": "2026-09-26T11:28:15+00:00",
   "rows": [
+    {
+      "case": "26002770",
+      "dates": [
+        "09/26/2026",
+        "09/26/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002770 Incident Code: ALCOHOL - DRUNK Reported Date: 09/26/2026 01:41 Disposition: Closed - Non-Criminal Case Occurred Date: 09/26/2026 01:41 Location: 880 N 17th St (UNL RESIDENCE HALL) Glossary"
+    },
+    {
+      "case": "26002768",
+      "dates": [
+        "09/25/2026",
+        "09/25/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002768 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/25/2026 23:01 Disposition: Closed - Non-Criminal Case Occurred Date: 09/25/2026 23:01 Location: 433 N 19th St (UNL RESIDENCE HALL) Glossary"
+    },
+    {
+      "case": "26002766",
+      "dates": [
+        "09/25/2026",
+        "09/25/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002766 Incident Code: ALCOHOL - DRUNK Reported Date: 09/25/2026 22:29 Disposition: Closed - Non-Criminal Case Occurred Date: 09/25/2026 22:29 Location: 616 N 16th St (OFF CAMPUS/GREEK HOUSING) Case Number:"
+    },
     {
       "case": "26002763",
       "dates": [
@@ -9,7 +36,7 @@
         "09/25/2026"
       ],
       "disposition": "closed",
-      "raw": "26002763 Incident Code: DISTURBANCE - OTHER Reported Date: 09/25/2026 17:41 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/25/2026 17:41 Location: 1400 R St (UNL SUPPORT FACILITY (office, service)) Glossary"
+      "raw": "26002763 Incident Code: DISTURBANCE - OTHER Reported Date: 09/25/2026 17:41 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/25/2026 17:41 Location: 1400 R St (UNL SUPPORT FACILITY (office, service)) Case Number:"
     },
     {
       "case": "26002750",

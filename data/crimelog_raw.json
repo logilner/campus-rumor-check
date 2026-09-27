@@ -1,7 +1,45 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-27T12:06:08+00:00",
+  "scrapedAt": "2026-09-27T17:00:36+00:00",
   "rows": [
+    {
+      "case": "26002780",
+      "dates": [
+        "09/27/2026",
+        "09/27/2026",
+        "09/27/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002780 Incident Code: ABANDONED BICYCLE Reported Date: 09/27/2026 02:05 Disposition: Open Occurred Date: 09/27/2026 02:03 — 09/27/2026 02:05 Location: 14TH ST ENTRANCE BLVD & Salt Creek RDWY (SIDEWALK) Glossary"
+    },
+    {
+      "case": "26002779",
+      "dates": [
+        "09/26/2026",
+        "09/26/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002779 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 09/26/2026 21:03 Disposition: Closed - Non-Criminal Case Occurred Date: 09/26/2026 21:03 Location: 880 N 17th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002778",
+      "dates": [
+        "09/26/2026",
+        "09/26/2026",
+        "09/26/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002778 Incident Code: VANDALISM - OTHER Reported Date: 09/26/2026 21:49 Disposition: Open Occurred Date: 09/26/2026 00:00 — 09/26/2026 19:30 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Glossary"
+    },
+    {
+      "case": "26002775",
+      "dates": [
+        "09/26/2026",
+        "09/26/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002775 Incident Code: ALCOHOL - USING FALSE I.D. Reported Date: 09/26/2026 18:56 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/26/2026 18:56 Location: 880 N 17th St (UNL RESIDENCE HALL) Case Number:"
+    },
     {
       "case": "26002770",
       "dates": [
@@ -9,7 +47,7 @@
         "09/26/2026"
       ],
       "disposition": "closed",
-      "raw": "26002770 Incident Code: ALCOHOL - DRUNK Reported Date: 09/26/2026 01:41 Disposition: Closed - Non-Criminal Case Occurred Date: 09/26/2026 01:41 Location: 880 N 17th St (UNL RESIDENCE HALL) Glossary"
+      "raw": "26002770 Incident Code: ALCOHOL - DRUNK Reported Date: 09/26/2026 01:41 Disposition: Closed - Non-Criminal Case Occurred Date: 09/26/2026 01:41 Location: 880 N 17th St (UNL RESIDENCE HALL) Case Number:"
     },
     {
       "case": "26002768",

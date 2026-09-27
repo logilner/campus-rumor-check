@@ -1,6 +1,6 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-26T21:13:01+00:00",
+  "scrapedAt": "2026-09-27T05:21:37+00:00",
   "rows": [
     {
       "case": "26002770",
@@ -224,8 +224,8 @@
         "09/18/2026",
         "08/24/2026"
       ],
-      "disposition": "open",
-      "raw": "26002645 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/18/2026 16:53 Disposition: Open Occurred Date: 08/24/2026 19:35 Location: 1111 N 14th St (GOV'T PARKING GARAGE (UNL)) Case Number:"
+      "disposition": "closed",
+      "raw": "26002645 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/18/2026 16:53 Disposition: Closed - Inactive Occurred Date: 08/24/2026 19:35 Location: 1111 N 14th St (GOV'T PARKING GARAGE (UNL)) Case Number:"
     },
     {
       "case": "26002642",

@@ -1,7 +1,17 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-28T05:27:32+00:00",
+  "scrapedAt": "2026-09-28T13:59:46+00:00",
   "rows": [
+    {
+      "case": "26002787",
+      "dates": [
+        "09/27/2026",
+        "09/24/2026",
+        "09/27/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002787 Incident Code: VANDALISM - OTHER Reported Date: 09/27/2026 22:15 Disposition: Open Occurred Date: 09/24/2026 17:00 — 09/27/2026 18:00 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Glossary"
+    },
     {
       "case": "26002780",
       "dates": [
@@ -10,7 +20,7 @@
         "09/27/2026"
       ],
       "disposition": "open",
-      "raw": "26002780 Incident Code: ABANDONED BICYCLE Reported Date: 09/27/2026 02:05 Disposition: Open Occurred Date: 09/27/2026 02:03 — 09/27/2026 02:05 Location: 14TH ST ENTRANCE BLVD & Salt Creek RDWY (SIDEWALK) Glossary"
+      "raw": "26002780 Incident Code: ABANDONED BICYCLE Reported Date: 09/27/2026 02:05 Disposition: Open Occurred Date: 09/27/2026 02:03 — 09/27/2026 02:05 Location: 14TH ST ENTRANCE BLVD & Salt Creek RDWY (SIDEWALK) Case Number:"
     },
     {
       "case": "26002779",

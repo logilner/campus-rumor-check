@@ -1,9 +1,9 @@
 {
   "_note": "Cache of recent items from verified sources, written by scripts/fetch_sources.py. 'type' is 'official' or 'news'. The rumor check matches claims against these items. Seeded with a few known items so matching works before the first fetch.",
-  "fetchedAt": "2026-09-29T12:56:03+00:00",
+  "fetchedAt": "2026-09-29T22:20:13+00:00",
   "activeIncidentPage": {
     "url": "https://emergency.unl.edu/",
-    "checkedAt": "2026-09-29T12:56:03+00:00",
+    "checkedAt": "2026-09-29T22:20:14+00:00",
     "text": "oln Apply University of Nebraska–Lincoln Give University of Nebraska–Lincoln Nebraska Emergency Information Home Campus Incident Updates Campus Incident Updates will be posted here. There are no current incidents. Report an Emergency Call or text 911 immediately. This is the official information website for the University of Nebraska-Lincoln in the event of an emergency on our campuses. When a UNL Alert is issued the university may refer members of the campus, the public, and media to this website for the most up-to-date information and guidance during an ongoing active emergency event. When t"
   },
   "items": [
@@ -718,6 +718,26 @@
       "summary": ""
     },
     {
+      "id": "nt-d8b8c99d0d79",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-09-25",
+      "title": "Rudney looks beyond the field as final Husker soccer season begins",
+      "url": "https://news.unl.edu/article/rudney-looks-beyond-the-field-as-final-husker-soccer-season-begins",
+      "summary": "As Ella Rudney enters her final season with Husker soccer, she’s embracing the challenges that come with being a student-athlete while savoring her final year at Nebraska. Along the way, she’s found growth, perspective and lessons that will stay with her beyond the field."
+    },
+    {
+      "id": "nt-678bc92f7231",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-09-25",
+      "title": "Nebraska acting students hone their craft at Shakespeare’s Globe Theatre",
+      "url": "https://news.unl.edu/article/nebraska-acting-students-hone-their-craft-at-shakespeares-globe-theatre",
+      "summary": "For three weeks this summer, students from the Johnny Carson School of Theatre and Film traded the familiar classrooms and rehearsal spaces of the Temple Building for one of the world’s most iconic stages — Shakespeare’s Globe in London."
+    },
+    {
       "id": "dn-d4385127ffe2",
       "type": "news",
       "source": "Daily Nebraskan",
@@ -938,26 +958,6 @@
       "summary": ""
     },
     {
-      "id": "nt-d8b8c99d0d79",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-09-25",
-      "title": "Rudney looks beyond the field as final Husker soccer season begins",
-      "url": "https://news.unl.edu/article/rudney-looks-beyond-the-field-as-final-husker-soccer-season-begins",
-      "summary": "As Ella Rudney enters her final season with Husker soccer, she’s embracing the challenges that come with being a student-athlete while savoring her final year at Nebraska. Along the way, she’s found growth, perspective and lessons that will stay with her beyond the field."
-    },
-    {
-      "id": "nt-678bc92f7231",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-09-25",
-      "title": "Nebraska acting students hone their craft at Shakespeare’s Globe Theatre",
-      "url": "https://news.unl.edu/article/nebraska-acting-students-hone-their-craft-at-shakespeares-globe-theatre",
-      "summary": "For three weeks this summer, students from the Johnny Carson School of Theatre and Film traded the familiar classrooms and rehearsal spaces of the Temple Building for one of the world’s most iconic stages — Shakespeare’s Globe in London."
-    },
-    {
       "id": "gn-3b85d11ab4d3",
       "type": "official",
       "source": "Nebraska Today",
@@ -986,6 +986,26 @@
       "title": "Czech President Pavel makes historic visit to university, recognizing long-standing relationship",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNakNncG5xOWcyaFZKVVV1Q1BwUGxQRktoSVNsMGtJeXlhQ0tfeXhMMjFZdFZOWFVGQ3AwbFRESnRLcldBVmx0ZWpWWkMyemNKb0lHRDl6eGNpNzQwbFU4LUZKUUlLLXhEUjY2SGJULVVuMno5SUVzV3BVZ1otQlFOb24tb1RTMERzVzZwVF9BeXhWa0x6MXE5OFgxVHd2Q25EVjdfVDhmNGdyNldvX01QSA?oc=5",
       "summary": ""
+    },
+    {
+      "id": "nt-5021e516c2d2",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-09-24",
+      "title": "Honors Week continues tradition of engagement, forging connections",
+      "url": "https://news.unl.edu/article/honors-week-continues-tradition-of-engagement-forging-connections",
+      "summary": "The University Honors Program kicked off its 40th anniversary celebrations with this year’s Honors Week, welcoming new and returning students through a series of activities focused on community, connection and opportunities to get involved on campus."
+    },
+    {
+      "id": "nt-0a3728d65ccc",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-09-24",
+      "title": "University begins search for next chancellor",
+      "url": "https://news.unl.edu/article/university-begins-search-for-next-chancellor",
+      "summary": "The University of Nebraska–Lincoln has begun a national search for its next chancellor, with a search committee and executive search firm to assist. Listening sessions will help shape the position profile, with a finalist expected by June 2027."
     },
     {
       "id": "dn-67c632531801",
@@ -1186,26 +1206,6 @@
       "title": "Huskers homecoming week to bring 'Beast Games'-inspired competition",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS050dnFPWjBGWDJqSGkzenVKUUgtUzFpNnZhWTFFN01vWHJqc2FrMG0zSGlzTnRrZC03UzRlWWhXdS1ORDVVNlVhMkZLOG9jSFVNYUd2ZkdfZ1JHckVCQ1R1dk5MNHo1bzdGdXU3aDdpTHZfSnp4WDRFdlF2WVdVUWczellKb0NVbmM5anFIQTlGajhnNW1vbjVOTlRMUnM?oc=5",
       "summary": ""
-    },
-    {
-      "id": "nt-5021e516c2d2",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-09-24",
-      "title": "Honors Week continues tradition of engagement, forging connections",
-      "url": "https://news.unl.edu/article/honors-week-continues-tradition-of-engagement-forging-connections",
-      "summary": "The University Honors Program kicked off its 40th anniversary celebrations with this year’s Honors Week, welcoming new and returning students through a series of activities focused on community, connection and opportunities to get involved on campus."
-    },
-    {
-      "id": "nt-0a3728d65ccc",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-09-24",
-      "title": "University begins search for next chancellor",
-      "url": "https://news.unl.edu/article/university-begins-search-for-next-chancellor",
-      "summary": "The University of Nebraska–Lincoln has begun a national search for its next chancellor, with a search committee and executive search firm to assist. Listening sessions will help shape the position profile, with a finalist expected by June 2027."
     },
     {
       "id": "gn-b7f72b9ebb35",

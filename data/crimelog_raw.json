@@ -1,14 +1,33 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-09-30T05:35:43+00:00",
+  "scrapedAt": "2026-09-30T12:38:38+00:00",
   "rows": [
+    {
+      "case": "26002820",
+      "dates": [
+        "09/30/2026",
+        "09/14/2026",
+        "09/15/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002820 Incident Code: HAZING Reported Date: 09/30/2026 01:50 Disposition: Open Occurred Date: 09/14/2026 22:30 — 09/15/2026 00:00 Location: 303 N 17th St (OFF CAMPUS/GREEK HOUSING) Glossary"
+    },
+    {
+      "case": "26002818",
+      "dates": [
+        "09/29/2026",
+        "09/26/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002818 Incident Code: VANDALISM - OTHER Reported Date: 09/29/2026 22:59 Disposition: Open Occurred Date: 09/26/2026 18:21 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Glossary"
+    },
     {
       "case": "26002817",
       "dates": [
         "09/29/2026"
       ],
       "disposition": "closed",
-      "raw": "26002817 Incident Code: EXTORTION Reported Date: 09/29/2026 20:06 Disposition: Closed - Non-Criminal Case Occurred Date: Unknown Location: 820 N 17th St (INTERNET/CYBERSPACE) Glossary"
+      "raw": "26002817 Incident Code: EXTORTION Reported Date: 09/29/2026 20:06 Disposition: Closed - Non-Criminal Case Occurred Date: Unknown Location: 820 N 17th St (INTERNET/CYBERSPACE) Case Number:"
     },
     {
       "case": "26002815",

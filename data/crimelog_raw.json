@@ -1,7 +1,17 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-02T12:38:42+00:00",
+  "scrapedAt": "2026-10-02T22:16:12+00:00",
   "rows": [
+    {
+      "case": "26002869",
+      "dates": [
+        "10/02/2026",
+        "09/28/2026",
+        "10/02/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002869 Incident Code: BURGLARY Reported Date: 10/02/2026 08:11 Disposition: Open Occurred Date: 09/28/2026 00:00 — 10/02/2026 08:11 Location: 949 N. 22nd St. (OTHER LOT/FIELD) Glossary"
+    },
     {
       "case": "26002860",
       "dates": [
@@ -54,8 +64,8 @@
         "09/29/2026",
         "09/29/2026"
       ],
-      "disposition": "open",
-      "raw": "26002812 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/29/2026 15:31 Disposition: Open Occurred Date: 09/29/2026 15:02 — 09/29/2026 15:31 Location: 1055 N 16th St (GOV'T PARKING LOT (UNL)) Case Number:"
+      "disposition": "closed",
+      "raw": "26002812 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 09/29/2026 15:31 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 09/29/2026 15:02 — 09/29/2026 15:31 Location: 1055 N 16th St (GOV'T PARKING LOT (UNL)) Case Number:"
     },
     {
       "case": "26002808",

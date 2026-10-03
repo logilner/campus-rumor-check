@@ -1,7 +1,51 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-03T05:21:16+00:00",
+  "scrapedAt": "2026-10-03T11:42:05+00:00",
   "rows": [
+    {
+      "case": "26002889",
+      "dates": [
+        "10/03/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002889 Incident Code: FND ARTICLE OTHER THAN ABAND. BIKE OR VEH. Reported Date: 10/03/2026 23:42 Disposition: Open Occurred Date: Unknown Location: 1111 N 14th St (SIDEWALK) Glossary"
+    },
+    {
+      "case": "26002887",
+      "dates": [
+        "10/03/2026",
+        "10/03/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002887 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 10/03/2026 01:11 Disposition: Closed - Non-Criminal Case Occurred Date: 10/03/2026 01:11 Location: 433 N 19th St (UNL RESIDENCE HALL) Case Number:"
+    },
+    {
+      "case": "26002886",
+      "dates": [
+        "10/03/2026",
+        "10/03/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002886 Incident Code: ALCOHOL - DWI Reported Date: 10/03/2026 00:08 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 10/03/2026 00:08 Location: N 33RD ST & HITCHCOCK ST (STREET) Case Number:"
+    },
+    {
+      "case": "26002885",
+      "dates": [
+        "10/03/2026",
+        "10/03/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002885 Incident Code: ALCOHOL - DWI Reported Date: 10/03/2026 00:01 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 10/03/2026 00:01 Location: N 14TH ST & Q ST (STREET) Case Number:"
+    },
+    {
+      "case": "26002884",
+      "dates": [
+        "10/02/2026",
+        "10/02/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002884 Incident Code: ALCOHOL - DRUNK Reported Date: 10/02/2026 23:06 Disposition: Closed - Non-Criminal Case Occurred Date: 10/02/2026 23:06 Location: 1400 R St (SIDEWALK) Glossary"
+    },
     {
       "case": "26002879",
       "dates": [
@@ -20,7 +64,7 @@
         "10/02/2026"
       ],
       "disposition": "closed",
-      "raw": "26002877 Incident Code: VANDALISM - OTHER Reported Date: 10/02/2026 19:58 Disposition: Closed - Inactive Occurred Date: 09/30/2026 20:20 — 10/02/2026 01:30 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Glossary"
+      "raw": "26002877 Incident Code: VANDALISM - OTHER Reported Date: 10/02/2026 19:58 Disposition: Closed - Inactive Occurred Date: 09/30/2026 20:20 — 10/02/2026 01:30 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Case Number:"
     },
     {
       "case": "26002869",

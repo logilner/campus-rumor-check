@@ -1,6 +1,6 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-03T11:42:05+00:00",
+  "scrapedAt": "2026-10-03T16:19:54+00:00",
   "rows": [
     {
       "case": "26002889",
@@ -65,6 +65,16 @@
       ],
       "disposition": "closed",
       "raw": "26002877 Incident Code: VANDALISM - OTHER Reported Date: 10/02/2026 19:58 Disposition: Closed - Inactive Occurred Date: 09/30/2026 20:20 — 10/02/2026 01:30 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Case Number:"
+    },
+    {
+      "case": "26002874",
+      "dates": [
+        "10/02/2026",
+        "09/26/2026",
+        "10/01/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002874 Incident Code: VANDALISM - OTHER Reported Date: 10/02/2026 13:38 Disposition: Closed - Inactive Occurred Date: 09/26/2026 08:00 — 10/01/2026 18:00 Location: 1801 R St (GOV'T PARKING LOT (UNL)) Case Number:"
     },
     {
       "case": "26002869",

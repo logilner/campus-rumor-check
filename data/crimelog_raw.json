@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-10T05:55:41+00:00",
+  "scrapedAt": "2026-10-10T12:35:24+00:00",
   "rows": [
+    {
+      "case": "26002994",
+      "dates": [
+        "10/09/2026",
+        "10/09/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26002994 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 10/09/2026 23:35 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 10/09/2026 23:35 Location: 880 N 17th St (UNL RESIDENCE HALL) Glossary"
+    },
     {
       "case": "26002990",
       "dates": [
@@ -10,7 +19,7 @@
         "10/09/2026"
       ],
       "disposition": "open",
-      "raw": "26002990 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 10/09/2026 20:55 Disposition: Open Occurred Date: 10/05/2026 20:45 — 10/09/2026 15:30 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Glossary"
+      "raw": "26002990 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 10/09/2026 20:55 Disposition: Open Occurred Date: 10/05/2026 20:45 — 10/09/2026 15:30 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Case Number:"
     },
     {
       "case": "26002984",

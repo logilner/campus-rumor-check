@@ -1,7 +1,17 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-10T21:46:42+00:00",
+  "scrapedAt": "2026-10-11T05:50:33+00:00",
   "rows": [
+    {
+      "case": "26003014",
+      "dates": [
+        "10/10/2026",
+        "10/10/2026",
+        "10/10/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003014 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 10/10/2026 16:57 Disposition: Open Occurred Date: 10/10/2026 11:00 — 10/10/2026 16:50 Location: 1400 R St (UNL SUPPORT FACILITY (office, service)) Glossary"
+    },
     {
       "case": "26003003",
       "dates": [
@@ -9,7 +19,7 @@
         "10/10/2026"
       ],
       "disposition": "closed",
-      "raw": "26003003 Incident Code: UNL POLICY VIOLATION -OTHER Reported Date: 10/10/2026 10:35 Disposition: Closed - Non-Criminal Case Occurred Date: 10/10/2026 10:35 Location: 1144 T St (SIDEWALK) Glossary"
+      "raw": "26003003 Incident Code: UNL POLICY VIOLATION -OTHER Reported Date: 10/10/2026 10:35 Disposition: Closed - Non-Criminal Case Occurred Date: 10/10/2026 10:35 Location: 1144 T St (SIDEWALK) Case Number:"
     },
     {
       "case": "26003002",
@@ -47,6 +57,16 @@
       ],
       "disposition": "closed",
       "raw": "26002998 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 10/10/2026 06:33 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 10/10/2026 06:33 Location: 630 N 14th St (GOV'T LOT/FIELD (UNL)) Case Number:"
+    },
+    {
+      "case": "26002996",
+      "dates": [
+        "10/10/2026",
+        "10/09/2026",
+        "10/10/2026"
+      ],
+      "disposition": "open",
+      "raw": "26002996 Incident Code: LARCENY - STOLEN BIKE Reported Date: 10/10/2026 02:53 Disposition: Open Occurred Date: 10/09/2026 21:40 — 10/10/2026 02:53 Location: 1104 R St (UNL ACADEMIC BUILDING) Case Number:"
     },
     {
       "case": "26002994",

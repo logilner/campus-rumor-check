@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-13T00:43:16+00:00",
+  "scrapedAt": "2026-10-13T14:15:00+00:00",
   "rows": [
+    {
+      "case": "26003042",
+      "dates": [
+        "10/12/2026",
+        "10/12/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003042 Incident Code: TRESPASSING Reported Date: 10/12/2026 21:35 Disposition: Closed - Non-Criminal Case Occurred Date: 10/12/2026 21:35 Location: 1780 R St (PARK/REC AREA) Glossary"
+    },
     {
       "case": "26003030",
       "dates": [

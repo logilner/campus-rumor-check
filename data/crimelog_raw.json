@@ -1,7 +1,35 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-15T17:03:44+00:00",
+  "scrapedAt": "2026-10-15T21:25:31+00:00",
   "rows": [
+    {
+      "case": "26003073",
+      "dates": [
+        "10/15/2026",
+        "10/15/2026",
+        "10/15/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003073 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 10/15/2026 10:54 Disposition: Open Occurred Date: 10/15/2026 09:10 — 10/15/2026 10:45 Location: 1111 N 14th St (GOV'T PARKING LOT (UNL)) Glossary"
+    },
+    {
+      "case": "26003072",
+      "dates": [
+        "10/15/2026",
+        "10/03/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003072 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 10/15/2026 10:32 Disposition: Open Occurred Date: 10/03/2026 18:30 Location: 530 N 17th St (SIDEWALK) Case Number:"
+    },
+    {
+      "case": "26003071",
+      "dates": [
+        "10/15/2026",
+        "10/13/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003071 Incident Code: VANDALISM - OTHER Reported Date: 10/15/2026 09:34 Disposition: Open Occurred Date: 10/13/2026 16:37 Location: 1111 N 14th St (GOV'T PARKING GARAGE (UNL)) Case Number:"
+    },
     {
       "case": "26003066",
       "dates": [

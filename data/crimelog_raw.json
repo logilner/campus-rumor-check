@@ -1,6 +1,6 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-15T04:43:00+00:00",
+  "scrapedAt": "2026-10-15T11:33:18+00:00",
   "rows": [
     {
       "case": "26003066",
@@ -84,8 +84,8 @@
         "10/13/2026",
         "10/10/2026"
       ],
-      "disposition": "open",
-      "raw": "26003017 Incident Code: DISTURBANCE - OTHER Reported Date: 10/13/2026 14:11 Disposition: Open Occurred Date: 10/10/2026 20:23 Location: 1600 Court ST (GOV'T PARKING LOT (UNL)) Case Number:"
+      "disposition": "closed",
+      "raw": "26003017 Incident Code: DISTURBANCE - OTHER Reported Date: 10/13/2026 14:11 Disposition: Closed - Non-Criminal Case Occurred Date: 10/10/2026 20:23 Location: 1600 Court ST (GOV'T PARKING LOT (UNL)) Case Number:"
     },
     {
       "case": "26003014",

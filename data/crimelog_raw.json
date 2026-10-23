@@ -1,7 +1,113 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-23T17:10:56+00:00",
+  "scrapedAt": "2026-10-23T21:26:37+00:00",
   "rows": [
+    {
+      "case": "26003183",
+      "dates": [
+        "10/23/2026",
+        "10/23/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003183 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 13:45 Disposition: Closed - Inactive Occurred Date: 10/23/2026 03:47 — 10/23/2026 04:15 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Glossary"
+    },
+    {
+      "case": "26003182",
+      "dates": [
+        "10/23/2026",
+        "10/23/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003182 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/23/2026 03:57 — 10/23/2026 04:15 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26003180",
+      "dates": [
+        "10/23/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003180 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/23/2026 03:57 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26003179",
+      "dates": [
+        "10/23/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003179 Incident Code: LARCENY - FROM MOTOR VEHICLE Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/23/2026 04:15 Location: (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26003178",
+      "dates": [
+        "10/23/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003178 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/23/2026 03:59 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26003177",
+      "dates": [
+        "10/23/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003177 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/23/2026 03:59 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26003176",
+      "dates": [
+        "10/23/2026",
+        "10/20/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003176 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/20/2026 21:00 — 10/23/2026 07:55 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26003175",
+      "dates": [
+        "10/23/2026",
+        "10/20/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003175 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/20/2026 10:30 — 10/23/2026 07:55 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26003174",
+      "dates": [
+        "10/23/2026",
+        "10/22/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003174 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/22/2026 23:20 — 10/23/2026 07:55 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26003173",
+      "dates": [
+        "10/23/2026",
+        "10/22/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003173 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/22/2026 13:00 — 10/23/2026 07:55 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
+    {
+      "case": "26003172",
+      "dates": [
+        "10/23/2026",
+        "10/22/2026",
+        "10/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003172 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Closed - Inactive Occurred Date: 10/22/2026 10:00 — 10/23/2026 07:55 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
+    },
     {
       "case": "26003170",
       "dates": [
@@ -9,7 +115,7 @@
         "10/23/2026"
       ],
       "disposition": "open",
-      "raw": "26003170 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Open Occurred Date: 10/23/2026 03:57 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Glossary"
+      "raw": "26003170 Incident Code: VANDALISM - OTHER Reported Date: 10/23/2026 07:55 Disposition: Open Occurred Date: 10/23/2026 03:57 Location: 1601 Court Street (GOV'T PARKING LOT (UNL)) Case Number:"
     },
     {
       "case": "26003163",

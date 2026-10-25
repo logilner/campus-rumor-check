@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-25T11:34:26+00:00",
+  "scrapedAt": "2026-10-25T16:25:02+00:00",
   "rows": [
+    {
+      "case": "26003207",
+      "dates": [
+        "10/25/2026",
+        "10/25/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003207 Incident Code: VANDALISM - OTHER Reported Date: 10/25/2026 01:26 Disposition: Closed - Non-Criminal Case Occurred Date: 10/25/2026 01:26 Location: 1150 N 14th St (GOV'T PARKING LOT (UNL)) Glossary"
+    },
     {
       "case": "26003206",
       "dates": [
@@ -9,7 +18,7 @@
         "10/25/2026"
       ],
       "disposition": "closed",
-      "raw": "26003206 Incident Code: ALCOHOL - DWI Reported Date: 10/25/2026 01:26 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 10/25/2026 01:26 Location: 1150 N 14th St (UNL RESIDENCE HALL) Glossary"
+      "raw": "26003206 Incident Code: ALCOHOL - DWI Reported Date: 10/25/2026 01:26 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 10/25/2026 01:26 Location: 1150 N 14th St (UNL RESIDENCE HALL) Case Number:"
     },
     {
       "case": "26003205",

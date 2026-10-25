@@ -1,7 +1,34 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-25T04:48:09+00:00",
+  "scrapedAt": "2026-10-25T11:34:26+00:00",
   "rows": [
+    {
+      "case": "26003206",
+      "dates": [
+        "10/25/2026",
+        "10/25/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003206 Incident Code: ALCOHOL - DWI Reported Date: 10/25/2026 01:26 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 10/25/2026 01:26 Location: 1150 N 14th St (UNL RESIDENCE HALL) Glossary"
+    },
+    {
+      "case": "26003205",
+      "dates": [
+        "10/25/2026",
+        "10/25/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003205 Incident Code: ALCOHOL - DWI Reported Date: 10/25/2026 00:12 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 10/25/2026 00:12 Location: N 16TH ST & U ST (STREET) Case Number:"
+    },
+    {
+      "case": "26003202",
+      "dates": [
+        "10/24/2026",
+        "10/23/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003202 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 10/24/2026 22:26 Disposition: Open Occurred Date: 10/23/2026 21:19 Location: 1150 N 14th St (UNL RESIDENCE HALL) Glossary"
+    },
     {
       "case": "26003200",
       "dates": [
@@ -10,7 +37,7 @@
         "10/24/2026"
       ],
       "disposition": "open",
-      "raw": "26003200 Incident Code: EXTORTION Reported Date: 10/24/2026 17:35 Disposition: Open Occurred Date: 10/23/2026 00:00 — 10/24/2026 17:35 Location: 1120 N 14th St (UNL RESIDENCE HALL) Glossary"
+      "raw": "26003200 Incident Code: EXTORTION Reported Date: 10/24/2026 17:35 Disposition: Open Occurred Date: 10/23/2026 00:00 — 10/24/2026 17:35 Location: 1120 N 14th St (UNL RESIDENCE HALL) Case Number:"
     },
     {
       "case": "26003196",

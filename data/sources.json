@@ -1,9 +1,9 @@
 {
   "_note": "Cache of recent items from verified sources, written by scripts/fetch_sources.py. 'type' is 'official' or 'news'. The rumor check matches claims against these items. Seeded with a few known items so matching works before the first fetch.",
-  "fetchedAt": "2026-10-31T12:35:22+00:00",
+  "fetchedAt": "2026-10-31T21:40:40+00:00",
   "activeIncidentPage": {
     "url": "https://emergency.unl.edu/",
-    "checkedAt": "2026-10-31T12:35:22+00:00",
+    "checkedAt": "2026-10-31T21:40:40+00:00",
     "text": "oln Apply University of Nebraska–Lincoln Give University of Nebraska–Lincoln Nebraska Emergency Information Home Campus Incident Updates Campus Incident Updates will be posted here. There are no current incidents. Report an Emergency Call or text 911 immediately. This is the official information website for the University of Nebraska-Lincoln in the event of an emergency on our campuses. When a UNL Alert is issued the university may refer members of the campus, the public, and media to this website for the most up-to-date information and guidance during an ongoing active emergency event. When t"
   },
   "items": [
@@ -236,6 +236,16 @@
       "title": "University hosts international high energy physics workshop",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX2xseDBROEM1SlF2eVo2c2hob1FvdHh6SGJLUWRsV2lsdVAwWDNOWUdYSUJjclZWd1ROX2lqdU42T2ktbTVXUDgwNElxcC1XbTlBNE41M3JKVmZCZFhwQXJjM3BBUmNiWUJ3LWdETHVyS1dYOFNzaFhscGpTV1pveld5aUhVM20zb1RoR2xSbFZ4Zw?oc=5",
       "summary": ""
+    },
+    {
+      "id": "nt-9bda2788de6a",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-10-30",
+      "title": "Fellowship to expand Mueller’s work on America’s founders",
+      "url": "https://news.unl.edu/article/fellowship-to-expand-muellers-work-on-americas-founders",
+      "summary": "Who gets to shape America — and whose stories get left out? Nebraska's Max Perry Mueller joins a national fellowship exploring how religion and identity shape democracy, connecting overlooked voices from the nation’s past to today’s questions of what it means to be American."
     },
     {
       "id": "dn-ee674776e974",
@@ -716,16 +726,6 @@
       "title": "Letter: Hosein the clear choice",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQnY4bWpBNzV1NEJFTUIxY1d3TFpCeDh3bnJ2MmhxMlpUZGRFZm1yOE8ydmF5WTI5YVVEQTByTGsxeEpGZnhDUDNKcVRySGVXR21MVVhFWm5OTGhGYk96ZVd3cEdCN3JLM1hyd0xBRDBlMUttblRmNHdiQy1IdHUzdFdremRWRFZSWDdFNE1FNVJNTGM?oc=5",
       "summary": ""
-    },
-    {
-      "id": "nt-9bda2788de6a",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-10-30",
-      "title": "Fellowship to expand Mueller’s work on America’s founders",
-      "url": "https://news.unl.edu/article/fellowship-to-expand-muellers-work-on-americas-founders",
-      "summary": "Who gets to shape America — and whose stories get left out? Nebraska's Max Perry Mueller joins a national fellowship exploring how religion and identity shape democracy, connecting overlooked voices from the nation’s past to today’s questions of what it means to be American."
     },
     {
       "id": "gn-0d36be8760bd",

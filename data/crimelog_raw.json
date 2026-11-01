@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-10-31T21:41:31+00:00",
+  "scrapedAt": "2026-11-01T06:09:09+00:00",
   "rows": [
+    {
+      "case": "26003307",
+      "dates": [
+        "10/31/2026",
+        "10/31/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003307 Incident Code: UNL POLICY VIOLATION -OTHER Reported Date: 10/31/2026 19:02 Disposition: Closed - Non-Criminal Case Occurred Date: 10/31/2026 19:02 Location: 1100 T St (SIDEWALK) Glossary"
+    },
     {
       "case": "26003293",
       "dates": [

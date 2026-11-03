@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-11-03T14:19:08+00:00",
+  "scrapedAt": "2026-11-03T23:25:18+00:00",
   "rows": [
+    {
+      "case": "26003343",
+      "dates": [
+        "11/03/2026",
+        "10/28/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003343 Incident Code: NARCOTICS - POSSESSION Reported Date: 11/03/2026 10:08 Disposition: Open Occurred Date: 10/28/2026 13:41 Location: 1210 Vine St (UNL SUPPORT FACILITY (office, service)) Glossary"
+    },
     {
       "case": "26003337",
       "dates": [
@@ -31,6 +40,15 @@
       ],
       "disposition": "closed",
       "raw": "26003334 Incident Code: DISTURBANCE - OTHER Reported Date: 11/02/2026 15:47 Disposition: Closed - Non-Criminal Case Occurred Date: 10/25/2026 21:10 — 10/25/2026 22:00 Location: 845 N 14th St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
+      "case": "26003332",
+      "dates": [
+        "10/31/2026",
+        "10/31/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003332 Incident Code: ASSAULT - NON DOMESTIC Reported Date: 10/31/2026 20:15 Disposition: Open Occurred Date: 10/31/2026 20:04 Location: 1144 T St (GOV'T PARKING LOT (UNL)) Case Number:"
     },
     {
       "case": "26003330",
@@ -242,7 +260,7 @@
         "10/26/2026"
       ],
       "disposition": "open",
-      "raw": "26003214 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 10/26/2026 10:25 Disposition: Open Occurred Date: 10/23/2026 15:30 — 10/26/2026 08:30 Location: N 39TH ST & CENTER DR (GOV'T LOT/FIELD (UNL)) Glossary"
+      "raw": "26003214 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 10/26/2026 10:25 Disposition: Closed - Inactive Occurred Date: 10/23/2026 15:30 — 10/26/2026 08:30 Location: N 39TH ST & CENTER DR (GOV'T LOT/FIELD (UNL)) Glossary"
     },
     {
       "case": "26003212",

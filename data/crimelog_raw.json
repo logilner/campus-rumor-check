@@ -1,7 +1,27 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-11-03T00:59:45+00:00",
+  "scrapedAt": "2026-11-03T14:19:08+00:00",
   "rows": [
+    {
+      "case": "26003337",
+      "dates": [
+        "11/02/2026",
+        "11/02/2026",
+        "11/02/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003337 Incident Code: EXTORTION Reported Date: 11/02/2026 20:20 Disposition: Closed - Inactive Occurred Date: 11/02/2026 20:00 — 11/02/2026 20:20 Location: (INTERNET/CYBERSPACE) Glossary"
+    },
+    {
+      "case": "26003336",
+      "dates": [
+        "11/02/2026",
+        "10/29/2026",
+        "10/30/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003336 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 11/02/2026 17:26 Disposition: Closed - Inactive Occurred Date: 10/29/2026 00:30 — 10/30/2026 08:00 Location: 1801 R St (INTERNET/CYBERSPACE) Case Number:"
+    },
     {
       "case": "26003334",
       "dates": [
@@ -10,7 +30,7 @@
         "10/25/2026"
       ],
       "disposition": "closed",
-      "raw": "26003334 Incident Code: DISTURBANCE - OTHER Reported Date: 11/02/2026 15:47 Disposition: Closed - Non-Criminal Case Occurred Date: 10/25/2026 21:10 — 10/25/2026 22:00 Location: 845 N 14th St (UNL SUPPORT FACILITY (office, service)) Glossary"
+      "raw": "26003334 Incident Code: DISTURBANCE - OTHER Reported Date: 11/02/2026 15:47 Disposition: Closed - Non-Criminal Case Occurred Date: 10/25/2026 21:10 — 10/25/2026 22:00 Location: 845 N 14th St (UNL SUPPORT FACILITY (office, service)) Case Number:"
     },
     {
       "case": "26003330",
@@ -157,8 +177,8 @@
         "10/20/2026",
         "10/28/2026"
       ],
-      "disposition": "open",
-      "raw": "26003254 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 10/28/2026 22:11 Disposition: Open Occurred Date: 10/20/2026 15:47 — 10/28/2026 21:30 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Glossary"
+      "disposition": "closed",
+      "raw": "26003254 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 10/28/2026 22:11 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 10/20/2026 15:47 — 10/28/2026 21:30 Location: 1801 R St (GOV'T PARKING GARAGE (UNL)) Glossary"
     },
     {
       "case": "26003252",

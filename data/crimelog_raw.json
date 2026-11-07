@@ -1,7 +1,17 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-11-07T13:05:39+00:00",
+  "scrapedAt": "2026-11-07T21:53:17+00:00",
   "rows": [
+    {
+      "case": "26003384",
+      "dates": [
+        "11/07/2026",
+        "11/06/2026",
+        "11/07/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003384 Incident Code: NARCOTICS - OVERDOSE Reported Date: 11/07/2026 05:06 Disposition: Closed - Non-Criminal Case Occurred Date: 11/06/2026 23:30 — 11/07/2026 05:06 Location: 820 N 17th St (UNL RESIDENCE HALL) Glossary"
+    },
     {
       "case": "26003383",
       "dates": [
@@ -9,7 +19,7 @@
         "11/07/2026"
       ],
       "disposition": "closed",
-      "raw": "26003383 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 11/07/2026 05:00 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 11/07/2026 05:00 Location: 1130 N 14th St (SIDEWALK) Glossary"
+      "raw": "26003383 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 11/07/2026 05:00 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 11/07/2026 05:00 Location: 1130 N 14th St (SIDEWALK) Case Number:"
     },
     {
       "case": "26003366",

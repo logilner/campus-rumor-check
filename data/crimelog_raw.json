@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-11-07T21:53:17+00:00",
+  "scrapedAt": "2026-11-08T06:04:37+00:00",
   "rows": [
+    {
+      "case": "26003386",
+      "dates": [
+        "11/07/2026",
+        "11/07/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003386 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 11/07/2026 15:00 Disposition: Open Occurred Date: 11/07/2026 11:01 Location: 1113 R St (SIDEWALK) Glossary"
+    },
     {
       "case": "26003384",
       "dates": [
@@ -10,7 +19,7 @@
         "11/07/2026"
       ],
       "disposition": "closed",
-      "raw": "26003384 Incident Code: NARCOTICS - OVERDOSE Reported Date: 11/07/2026 05:06 Disposition: Closed - Non-Criminal Case Occurred Date: 11/06/2026 23:30 — 11/07/2026 05:06 Location: 820 N 17th St (UNL RESIDENCE HALL) Glossary"
+      "raw": "26003384 Incident Code: NARCOTICS - OVERDOSE Reported Date: 11/07/2026 05:06 Disposition: Closed - Non-Criminal Case Occurred Date: 11/06/2026 23:30 — 11/07/2026 05:06 Location: 820 N 17th St (UNL RESIDENCE HALL) Case Number:"
     },
     {
       "case": "26003383",
@@ -190,8 +199,8 @@
         "10/30/2026",
         "10/30/2026"
       ],
-      "disposition": "open",
-      "raw": "26003292 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 10/30/2026 23:31 Disposition: Open Occurred Date: 10/30/2026 23:31 Location: N 16TH ST & S ST (SIDEWALK) Case Number:"
+      "disposition": "closed",
+      "raw": "26003292 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 10/30/2026 23:31 Disposition: Closed - Non-Criminal Case Occurred Date: 10/30/2026 23:31 Location: N 16TH ST & S ST (SIDEWALK) Case Number:"
     },
     {
       "case": "26003290",

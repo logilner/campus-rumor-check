@@ -1,6 +1,6 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-11-11T19:38:30+00:00",
+  "scrapedAt": "2026-11-12T07:14:45+00:00",
   "rows": [
     {
       "case": "26003422",
@@ -31,6 +31,24 @@
       ],
       "disposition": "open",
       "raw": "26003418 Incident Code: TELEPHONE - OBSCENE CALLS Reported Date: 11/10/2026 15:33 Disposition: Open Occurred Date: 11/10/2026 10:30 — 11/10/2026 12:30 Location: 1505 S St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
+      "case": "26003416",
+      "dates": [
+        "11/10/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003416 Incident Code: ALCOHOL - USING FALSE I.D. Reported Date: 11/10/2026 13:30 Disposition: Closed - Inactive Occurred Date: Unknown Location: 841 N 14th St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
+      "case": "26003415",
+      "dates": [
+        "11/10/2026",
+        "10/31/2026",
+        "11/09/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003415 Incident Code: LARCENY - STOLEN BIKE Reported Date: 11/10/2026 14:08 Disposition: Open Occurred Date: 10/31/2026 20:00 — 11/09/2026 14:26 Location: 1535 R St (OFF CAMPUS/GREEK HOUSING) Case Number:"
     },
     {
       "case": "26003413",

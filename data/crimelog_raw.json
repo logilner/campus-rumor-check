@@ -1,7 +1,64 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-11-13T19:44:38+00:00",
+  "scrapedAt": "2026-11-14T06:27:12+00:00",
   "rows": [
+    {
+      "case": "26003467",
+      "dates": [
+        "11/13/2026",
+        "11/13/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003467 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 11/13/2026 22:50 Disposition: Closed - Non-Criminal Case Occurred Date: 11/13/2026 22:50 Location: 880 N 17th St (UNL RESIDENCE HALL) Glossary"
+    },
+    {
+      "case": "26003465",
+      "dates": [
+        "11/13/2026",
+        "11/13/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003465 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 11/13/2026 22:13 Disposition: Closed - Non-Criminal Case Occurred Date: 11/13/2026 22:13 Location: 425 University Terrace (OFF CAMPUS/GREEK HOUSING) Case Number:"
+    },
+    {
+      "case": "26003461",
+      "dates": [
+        "11/13/2026",
+        "11/04/2026",
+        "11/13/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003461 Incident Code: LARCENY - STOLEN BIKE Reported Date: 11/13/2026 13:51 Disposition: Open Occurred Date: 11/04/2026 14:34 — 11/13/2026 13:00 Location: 433 N 19th St (SIDEWALK) Case Number:"
+    },
+    {
+      "case": "26003460",
+      "dates": [
+        "11/13/2026",
+        "11/06/2026",
+        "11/09/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003460 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 11/13/2026 12:38 Disposition: Open Occurred Date: 11/06/2026 13:30 — 11/09/2026 09:15 Location: 1400 R St (SIDEWALK) Case Number:"
+    },
+    {
+      "case": "26003459",
+      "dates": [
+        "11/13/2026",
+        "11/13/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003459 Incident Code: DISTURBANCE - OTHER Reported Date: 11/13/2026 11:37 Disposition: Closed - Non-Criminal Case Occurred Date: 11/13/2026 11:37 Location: 501 N 14th St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
+    {
+      "case": "26003457",
+      "dates": [
+        "11/13/2026",
+        "11/13/2026",
+        "11/13/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003457 Incident Code: TRESPASSING Reported Date: 11/13/2026 08:55 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 11/13/2026 07:00 — 11/13/2026 08:51 Location: 1400 R St (UNL SUPPORT FACILITY (office, service)) Case Number:"
+    },
     {
       "case": "26003455",
       "dates": [
@@ -9,7 +66,7 @@
         "11/13/2026"
       ],
       "disposition": "closed",
-      "raw": "26003455 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 11/13/2026 01:29 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 11/13/2026 01:29 Location: 1130 N 14th St (UNL RESIDENCE HALL) Glossary"
+      "raw": "26003455 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 11/13/2026 01:29 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 11/13/2026 01:29 Location: 1130 N 14th St (UNL RESIDENCE HALL) Case Number:"
     },
     {
       "case": "26003454",
@@ -180,7 +237,7 @@
         "11/04/2026"
       ],
       "disposition": "open",
-      "raw": "26003358 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 11/04/2026 18:52 Disposition: Open Occurred Date: 11/04/2026 17:20 — 11/04/2026 18:40 Location: 512 N 12th St (UNL ACADEMIC BUILDING) Glossary"
+      "raw": "26003358 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 11/04/2026 18:52 Disposition: Closed - Inactive Occurred Date: 11/04/2026 17:20 — 11/04/2026 18:40 Location: 512 N 12th St (UNL ACADEMIC BUILDING) Glossary"
     },
     {
       "case": "26003351",

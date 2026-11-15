@@ -1,9 +1,9 @@
 {
   "_note": "Cache of recent items from verified sources, written by scripts/fetch_sources.py. 'type' is 'official' or 'news'. The rumor check matches claims against these items. Seeded with a few known items so matching works before the first fetch.",
-  "fetchedAt": "2026-11-15T06:35:52+00:00",
+  "fetchedAt": "2026-11-15T18:56:08+00:00",
   "activeIncidentPage": {
     "url": "https://emergency.unl.edu/",
-    "checkedAt": "2026-11-15T06:35:53+00:00",
+    "checkedAt": "2026-11-15T18:56:09+00:00",
     "text": "oln Apply University of Nebraska–Lincoln Give University of Nebraska–Lincoln Nebraska Emergency Information Home Campus Incident Updates Campus Incident Updates will be posted here. There are no current incidents. Report an Emergency Call or text 911 immediately. This is the official information website for the University of Nebraska-Lincoln in the event of an emergency on our campuses. When a UNL Alert is issued the university may refer members of the campus, the public, and media to this website for the most up-to-date information and guidance during an ongoing active emergency event. When t"
   },
   "items": [
@@ -418,6 +418,36 @@
       "summary": ""
     },
     {
+      "id": "nt-550ff7f7db81",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-11-13",
+      "title": "Father-daughter alumni build community through family business",
+      "url": "https://news.unl.edu/article/father-daughter-alumni-build-community-through-family-business",
+      "summary": "A father-daughter team with Nebraska roots is building more than a successful manufacturing business. At TMCO, Roland Temme and Diane Temme Stinton have turned a family legacy into a community-minded mission, championing employees, workforce development and the future of Nebraska manufacturing."
+    },
+    {
+      "id": "nt-5f945ea16ca1",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-11-13",
+      "title": "Adkins awarded prestigious fellowship for veteran advocacy",
+      "url": "https://news.unl.edu/article/adkins-awarded-prestigious-fellowship-for-veteran-advocacy",
+      "summary": "After eight years in the U.S. Navy, Cameron Adkins found community and purpose at Nebraska. Now a 2026 National Veterans Leadership Foundation Leadership Fellow, he helps fellow student veterans navigate the transition to college and connects them with resources and support."
+    },
+    {
+      "id": "nt-e7f25534852a",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-11-13",
+      "title": "Achievements | Honors, appointments and publications for Nov. 13",
+      "url": "https://news.unl.edu/article/achievements-honors-appointments-and-publications-for-nov-13",
+      "summary": "Recent achievements for the University of Nebraska–Lincoln were earned by Lara Arnold, Erin Blankenship, Jessica Deters, Andrew Hanna, David Hansen, Lisa Hilfiker, Kathryn Holland, Sydney Honaker, Emira Ibrahimpasic, Ari Kohen, Stephen Lahey, Dawn Lindsley, Samarpan Mohanty, Ekaterina Muravleva, Julia Reilly, Diego Sanchez, Timothy Schaffert, Gerald Steinacher, David Wishart and Fiona Wynn. Click "
+    },
+    {
       "id": "gn-f0f08da6a060",
       "type": "news",
       "source": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
@@ -728,34 +758,14 @@
       "summary": ""
     },
     {
-      "id": "nt-550ff7f7db81",
+      "id": "nt-882e419aa0f7",
       "type": "official",
       "source": "Nebraska Today (UNL newsroom)",
       "domain": "news.unl.edu",
-      "date": "2026-11-13",
-      "title": "Father-daughter alumni build community through family business",
-      "url": "https://news.unl.edu/article/father-daughter-alumni-build-community-through-family-business",
-      "summary": "A father-daughter team with Nebraska roots is building more than a successful manufacturing business. At TMCO, Roland Temme and Diane Temme Stinton have turned a family legacy into a community-minded mission, championing employees, workforce development and the future of Nebraska manufacturing."
-    },
-    {
-      "id": "nt-5f945ea16ca1",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-11-13",
-      "title": "Adkins awarded prestigious fellowship for veteran advocacy",
-      "url": "https://news.unl.edu/article/adkins-awarded-prestigious-fellowship-for-veteran-advocacy",
-      "summary": "After eight years in the U.S. Navy, Cameron Adkins found community and purpose at Nebraska. Now a 2026 National Veterans Leadership Foundation Leadership Fellow, he helps fellow student veterans navigate the transition to college and connects them with resources and support."
-    },
-    {
-      "id": "nt-e7f25534852a",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-11-13",
-      "title": "Achievements | Honors, appointments and publications for Nov. 13",
-      "url": "https://news.unl.edu/article/achievements-honors-appointments-and-publications-for-nov-13",
-      "summary": "Recent achievements for the University of Nebraska–Lincoln were earned by Lara Arnold, Erin Blankenship, Jessica Deters, Andrew Hanna, David Hansen, Lisa Hilfiker, Kathryn Holland, Sydney Honaker, Emira Ibrahimpasic, Ari Kohen, Stephen Lahey, Dawn Lindsley, Samarpan Mohanty, Ekaterina Muravleva, Julia Reilly, Diego Sanchez, Timothy Schaffert, Gerald Steinacher, David Wishart and Fiona Wynn. Click "
+      "date": "2026-11-12",
+      "title": "3 Husker faculty honored for championing STEM equity",
+      "url": "https://news.unl.edu/article/3-husker-faculty-honored-for-championing-stem-equity",
+      "summary": "Nebraska's Amy Desaulniers, Kristi Montooth and Julia McQuillan earned 2026 national honors from the Association for Women in Science for their leadership in making STEM more inclusive and opening doors for the next generation of scientists."
     },
     {
       "id": "gn-66ddfcd838aa",
@@ -978,14 +988,34 @@
       "summary": ""
     },
     {
-      "id": "nt-882e419aa0f7",
+      "id": "nt-3bdf54437440",
       "type": "official",
       "source": "Nebraska Today (UNL newsroom)",
       "domain": "news.unl.edu",
-      "date": "2026-11-12",
-      "title": "3 Husker faculty honored for championing STEM equity",
-      "url": "https://news.unl.edu/article/3-husker-faculty-honored-for-championing-stem-equity",
-      "summary": "Nebraska's Amy Desaulniers, Kristi Montooth and Julia McQuillan earned 2026 national honors from the Association for Women in Science for their leadership in making STEM more inclusive and opening doors for the next generation of scientists."
+      "date": "2026-11-11",
+      "title": "High costs inhibit Nebraskans from seeking healthcare, poll shows",
+      "url": "https://news.unl.edu/article/high-costs-inhibit-nebraskans-from-seeking-healthcare-poll-shows",
+      "summary": "According to the 2026 Nebraska Rural Poll, most rural Nebraskans report having health insurance coverage and a personal doctor. However, for some high costs precluded them from needed healthcare."
+    },
+    {
+      "id": "nt-9810fac86769",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-11-11",
+      "title": "Nebraska Law works to expand rural access to justice",
+      "url": "https://news.unl.edu/article/nebraska-law-works-to-expand-rural-access-to-justice",
+      "summary": "More than 160 legal leaders gathered at the College of Law Nov. 6-7 for the National Rural Access to Justice Convening. The event brought together law school leaders, judges, legal aid organizations and bar associations to explore solutions to attorney shortages and gaps in access to legal services in rural communities."
+    },
+    {
+      "id": "nt-79f2aef84b98",
+      "type": "official",
+      "source": "Nebraska Today (UNL newsroom)",
+      "domain": "news.unl.edu",
+      "date": "2026-11-11",
+      "title": "Engler program celebrates 15 years of building people who build Nebraska",
+      "url": "https://news.unl.edu/article/engler-program-celebrates-15-years-of-building-people-who-build-nebraska",
+      "summary": "For 15 years, the Engler Agribusiness Entrepreneurship Program at the University of Nebraska–Lincoln has equipped students to build businesses, create opportunities and strengthen the communities they call home."
     },
     {
       "id": "gn-4b817733f8c7",
@@ -1068,34 +1098,14 @@
       "summary": ""
     },
     {
-      "id": "nt-3bdf54437440",
+      "id": "nt-cb394ab0e396",
       "type": "official",
       "source": "Nebraska Today (UNL newsroom)",
       "domain": "news.unl.edu",
-      "date": "2026-11-11",
-      "title": "High costs inhibit Nebraskans from seeking healthcare, poll shows",
-      "url": "https://news.unl.edu/article/high-costs-inhibit-nebraskans-from-seeking-healthcare-poll-shows",
-      "summary": "According to the 2026 Nebraska Rural Poll, most rural Nebraskans report having health insurance coverage and a personal doctor. However, for some high costs precluded them from needed healthcare."
-    },
-    {
-      "id": "nt-9810fac86769",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-11-11",
-      "title": "Nebraska Law works to expand rural access to justice",
-      "url": "https://news.unl.edu/article/nebraska-law-works-to-expand-rural-access-to-justice",
-      "summary": "More than 160 legal leaders gathered at the College of Law Nov. 6-7 for the National Rural Access to Justice Convening. The event brought together law school leaders, judges, legal aid organizations and bar associations to explore solutions to attorney shortages and gaps in access to legal services in rural communities."
-    },
-    {
-      "id": "nt-79f2aef84b98",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-11-11",
-      "title": "Engler program celebrates 15 years of building people who build Nebraska",
-      "url": "https://news.unl.edu/article/engler-program-celebrates-15-years-of-building-people-who-build-nebraska",
-      "summary": "For 15 years, the Engler Agribusiness Entrepreneurship Program at the University of Nebraska–Lincoln has equipped students to build businesses, create opportunities and strengthen the communities they call home."
+      "date": "2026-11-10",
+      "title": "New café planned for Adele Hall Learning Commons",
+      "url": "https://news.unl.edu/article/new-cafe-planned-for-adele-hall-learning-commons",
+      "summary": "The University Libraries is partnering with University Dining Services to open a new café in early 2027, replacing the Dunkin Donuts franchise currently in the Adele Hall Learning Commons."
     },
     {
       "id": "gn-90343db06b75",
@@ -1236,16 +1246,6 @@
       "title": "School bus crash in Omaha sends 1 to hospital Tuesday morning",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWlhKYU1pSl9uNjh4REZDS1M3Nzd5ZmVUVWw0TFNMemhYVThqcjZWN1dWelZUMWRyMHA1THhZSko2eEptMTZfNFZrOUlRbllrdzJFb1VLN21ZbGVPOWsyeFVXUnRRajMxMk1xZmI0RlVfbUNJSU1rWVhVRzFTQjRsT21ybktMR2xyMVFpa25nNDVIT3NLdWp0Z0d5SjdKU051b0F3QQ?oc=5",
       "summary": ""
-    },
-    {
-      "id": "nt-cb394ab0e396",
-      "type": "official",
-      "source": "Nebraska Today (UNL newsroom)",
-      "domain": "news.unl.edu",
-      "date": "2026-11-10",
-      "title": "New café planned for Adele Hall Learning Commons",
-      "url": "https://news.unl.edu/article/new-cafe-planned-for-adele-hall-learning-commons",
-      "summary": "The University Libraries is partnering with University Dining Services to open a new café in early 2027, replacing the Dunkin Donuts franchise currently in the Adele Hall Learning Commons."
     },
     {
       "id": "gn-aaaf3611382f",

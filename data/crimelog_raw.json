@@ -1,7 +1,34 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-11-20T07:19:55+00:00",
+  "scrapedAt": "2026-11-20T20:24:46+00:00",
   "rows": [
+    {
+      "case": "26003538",
+      "dates": [
+        "11/20/2026",
+        "11/20/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003538 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 11/20/2026 04:06 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 11/20/2026 04:06 Location: N 17TH ST & R ST (STREET) Glossary"
+    },
+    {
+      "case": "26003537",
+      "dates": [
+        "11/20/2026",
+        "11/14/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003537 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 11/20/2026 00:23 Disposition: Open Occurred Date: 11/14/2026 13:55 Location: 1055 N 16th St (SIDEWALK) Case Number:"
+    },
+    {
+      "case": "26003535",
+      "dates": [
+        "11/19/2026",
+        "11/19/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003535 Incident Code: HAZING Reported Date: 11/19/2026 21:42 Disposition: Closed - Inactive Occurred Date: 11/19/2026 20:00 Location: 1535 R St (OFF CAMPUS/GREEK HOUSING) Case Number:"
+    },
     {
       "case": "26003534",
       "dates": [
@@ -556,8 +583,8 @@
         "10/29/2026",
         "10/29/2026"
       ],
-      "disposition": "open",
-      "raw": "26003268 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 10/29/2026 21:52 Disposition: Open Occurred Date: 10/29/2026 19:45 Location: (INTERNET/CYBERSPACE) Case Number:"
+      "disposition": "closed",
+      "raw": "26003268 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 10/29/2026 21:52 Disposition: Closed - Inactive Occurred Date: 10/29/2026 19:45 Location: (INTERNET/CYBERSPACE) Case Number:"
     },
     {
       "case": "26003256",

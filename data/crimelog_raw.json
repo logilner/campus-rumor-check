@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-11-20T20:24:46+00:00",
+  "scrapedAt": "2026-11-21T07:12:36+00:00",
   "rows": [
+    {
+      "case": "26003539",
+      "dates": [
+        "11/20/2026",
+        "11/20/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003539 Incident Code: LARCENY - OTHER OR FROM OPEN AREA Reported Date: 11/20/2026 07:46 Disposition: Open Occurred Date: 11/20/2026 00:20 Location: 4000 East Campus Loop S (GOV'T PARKING LOT (UNL)) Glossary"
+    },
     {
       "case": "26003538",
       "dates": [
@@ -9,7 +18,7 @@
         "11/20/2026"
       ],
       "disposition": "closed",
-      "raw": "26003538 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 11/20/2026 04:06 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 11/20/2026 04:06 Location: N 17TH ST & R ST (STREET) Glossary"
+      "raw": "26003538 Incident Code: ALCOHOL - MINOR IN POSSESSION Reported Date: 11/20/2026 04:06 Disposition: Closed - Cleared by Arrest-Adult Occurred Date: 11/20/2026 04:06 Location: N 17TH ST & R ST (STREET) Case Number:"
     },
     {
       "case": "26003537",
@@ -233,8 +242,8 @@
         "11/12/2026",
         "11/12/2026"
       ],
-      "disposition": "open",
-      "raw": "26003444 Incident Code: VANDALISM - OTHER Reported Date: 11/12/2026 11:07 Disposition: Open Occurred Date: 11/12/2026 08:00 — 11/12/2026 09:50 Location: 501 Stadium Dr (UNL SUPPORT FACILITY (office, service)) Case Number:"
+      "disposition": "closed",
+      "raw": "26003444 Incident Code: VANDALISM - OTHER Reported Date: 11/12/2026 11:07 Disposition: Closed - Inactive Occurred Date: 11/12/2026 08:00 — 11/12/2026 09:50 Location: 501 Stadium Dr (UNL SUPPORT FACILITY (office, service)) Case Number:"
     },
     {
       "case": "26003438",
@@ -556,8 +565,8 @@
         "10/30/2026",
         "10/30/2026"
       ],
-      "disposition": "open",
-      "raw": "26003282 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 10/30/2026 15:01 Disposition: Open Occurred Date: 10/30/2026 14:00 — 10/30/2026 15:00 Location: 1055 N 16th St (INTERNET/CYBERSPACE) Case Number:"
+      "disposition": "closed",
+      "raw": "26003282 Incident Code: FRAUD - CON GAMES/DECEPTION/FALSE PRET - INTERNET Reported Date: 10/30/2026 15:01 Disposition: Closed - Inactive Occurred Date: 10/30/2026 14:00 — 10/30/2026 15:00 Location: 1055 N 16th St (INTERNET/CYBERSPACE) Case Number:"
     },
     {
       "case": "26003275",

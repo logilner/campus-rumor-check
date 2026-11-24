@@ -1,7 +1,16 @@
 {
   "_note": "Best-effort output of scripts/scrape_crimelog.py from the UNL Daily Crime & Fire Log (scsapps.unl.edu). These are unreviewed. Promote notable ones into incidents.json by hand.",
-  "scrapedAt": "2026-11-23T23:56:13+00:00",
+  "scrapedAt": "2026-11-24T09:57:22+00:00",
   "rows": [
+    {
+      "case": "26003585",
+      "dates": [
+        "11/23/2026",
+        "11/23/2026"
+      ],
+      "disposition": "closed",
+      "raw": "26003585 Incident Code: UNL POLICY VIOLATION -OTHER Reported Date: 11/23/2026 19:56 Disposition: Closed - Non-Criminal Case Occurred Date: 11/23/2026 19:56 Location: 1400 R St (UNL SUPPORT FACILITY (office, service)) Glossary"
+    },
     {
       "case": "26003582",
       "dates": [
@@ -12,13 +21,23 @@
       "raw": "26003582 Incident Code: ASSAULT - NON DOMESTIC Reported Date: 11/21/2026 14:10 Disposition: Closed - Inactive Occurred Date: 11/21/2026 14:40 Location: 1100 T St (UNL SUPPORT FACILITY (office, service)) Glossary"
     },
     {
+      "case": "26003581",
+      "dates": [
+        "11/23/2026",
+        "08/26/2026",
+        "11/06/2026"
+      ],
+      "disposition": "open",
+      "raw": "26003581 Incident Code: OUTSIDE CRIME - REPORTS OUTSIDE JURISDICTION Reported Date: 11/23/2026 13:56 Disposition: Open Occurred Date: 08/26/2026 08:00 — 11/06/2026 17:00 Location: (UNKNOWN) Case Number:"
+    },
+    {
       "case": "26003580",
       "dates": [
         "11/23/2026",
         "11/23/2026"
       ],
       "disposition": "open",
-      "raw": "26003580 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 11/23/2026 14:20 Disposition: Open Occurred Date: 11/23/2026 09:57 Location: 1100 T St (STREET) Glossary"
+      "raw": "26003580 Incident Code: ACCIDENTS - P.D. H&R NOT REPORTABLE Reported Date: 11/23/2026 14:20 Disposition: Open Occurred Date: 11/23/2026 09:57 Location: 1100 T St (STREET) Case Number:"
     },
     {
       "case": "26003539",
